@@ -1,0 +1,463 @@
+scenario_name: rubble_field_drone_scenario
+experiment:
+  seed: 42
+input:
+  image_path: data/images/42432b96-Rubble_F2_RGB.png
+tiling:
+  tile_size: 1024
+  stride: 1024
+  include_partial_tiles: false
+output:
+  output_dir: runs/observations/rubble_field_drone_scenario
+  save_clean_tiles: false
+  save_corrupted_tiles: true
+  save_predictions: true
+agents:
+- id: uav_no_corruption_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_gaussian_noise_s00_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_gaussian_noise_s01_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.1
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_gaussian_noise_s02_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.2
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_gaussian_noise_s03_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.3
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_gaussian_noise_s04_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.4
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_gaussian_noise_s05_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.5
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_gaussian_noise_s06_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.6
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_gaussian_noise_s07_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.7
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_gaussian_noise_s08_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.8
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_gaussian_noise_s09_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.9
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_gaussian_noise_s10_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 1.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_motion_blur_s00_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_motion_blur_s01_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.1
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_motion_blur_s02_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.2
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_motion_blur_s03_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.3
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_motion_blur_s04_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.4
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_motion_blur_s05_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.5
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_motion_blur_s06_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.6
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_motion_blur_s07_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.7
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_motion_blur_s08_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.8
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_motion_blur_s09_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.9
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_motion_blur_s10_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 1.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_snow_s00_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_snow_s01_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.1
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_snow_s02_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.2
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_snow_s03_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.3
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_snow_s04_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.4
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_snow_s05_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.5
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_snow_s06_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.6
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_snow_s07_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.7
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_snow_s08_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.8
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_snow_s09_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.9
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_snow_s10_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 1.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_pixelate_s00_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_pixelate_s01_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.1
+    defocus: 0.0
+- id: uav_pixelate_s02_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.2
+    defocus: 0.0
+- id: uav_pixelate_s03_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.3
+    defocus: 0.0
+- id: uav_pixelate_s04_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.4
+    defocus: 0.0
+- id: uav_pixelate_s05_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.5
+    defocus: 0.0
+- id: uav_pixelate_s06_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.6
+    defocus: 0.0
+- id: uav_pixelate_s07_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.7
+    defocus: 0.0
+- id: uav_pixelate_s08_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.8
+    defocus: 0.0
+- id: uav_pixelate_s09_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.9
+    defocus: 0.0
+- id: uav_pixelate_s10_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 1.0
+    defocus: 0.0
+- id: uav_defocus_s00_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.0
+- id: uav_defocus_s01_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.1
+- id: uav_defocus_s02_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.2
+- id: uav_defocus_s03_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.3
+- id: uav_defocus_s04_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.4
+- id: uav_defocus_s05_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.5
+- id: uav_defocus_s06_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.6
+- id: uav_defocus_s07_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.7
+- id: uav_defocus_s08_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.8
+- id: uav_defocus_s09_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 0.9
+- id: uav_defocus_s10_rubblefield_170_epochs_balanced_detector
+  model: models/yolo26_170_epochs_balanced_detector.pt
+  corruptions:
+    gaussian_noise: 0.0
+    motion_blur: 0.0
+    snow: 0.0
+    pixelate: 0.0
+    defocus: 1.0

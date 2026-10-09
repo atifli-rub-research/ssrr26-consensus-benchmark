@@ -1,0 +1,296 @@
+{
+  "input_files": [
+    "runs/observations/grass_field_drone_scenario/2026-06-28_19-36-43_grass_field_drone_scenario/predictions/uav_defocus_0p6_grassfield_170_epochs_balanced_detector_predictions.json",
+    "runs/observations/grass_field_drone_scenario/2026-06-28_19-36-43_grass_field_drone_scenario/predictions/uav_gaussian_noise_0p6_grassfield_170_epochs_balanced_detector_predictions.json",
+    "runs/observations/grass_field_drone_scenario/2026-06-28_19-36-43_grass_field_drone_scenario/predictions/uav_motion_blur_0p0_grassfield_170_epochs_balanced_detector_predictions.json",
+    "runs/observations/grass_field_drone_scenario/2026-06-28_19-36-43_grass_field_drone_scenario/predictions/uav_pixelate_0p0_grassfield_170_epochs_balanced_detector_predictions.json",
+    "runs/observations/grass_field_drone_scenario/2026-06-28_19-36-43_grass_field_drone_scenario/predictions/uav_snow_0p6_grassfield_170_epochs_balanced_detector_predictions.json"
+  ],
+  "seed": 42,
+  "n_runs": 10,
+  "monte_carlo_averaging": true,
+  "metric_level": "instance",
+  "iou_threshold": 0.5,
+  "threshold": null,
+  "start_combinations": [
+    {
+      "uav_001__uav_defocus_0p6_grassfield_170_epochs_balanced_detector": 163,
+      "uav_002__uav_gaussian_noise_0p6_grassfield_170_epochs_balanced_detector": 28,
+      "uav_003__uav_motion_blur_0p0_grassfield_170_epochs_balanced_detector": 6,
+      "uav_004__uav_pixelate_0p0_grassfield_170_epochs_balanced_detector": 70,
+      "uav_005__uav_snow_0p6_grassfield_170_epochs_balanced_detector": 62
+    },
+    {
+      "uav_001__uav_defocus_0p6_grassfield_170_epochs_balanced_detector": 57,
+      "uav_002__uav_gaussian_noise_0p6_grassfield_170_epochs_balanced_detector": 35,
+      "uav_003__uav_motion_blur_0p0_grassfield_170_epochs_balanced_detector": 26,
+      "uav_004__uav_pixelate_0p0_grassfield_170_epochs_balanced_detector": 139,
+      "uav_005__uav_snow_0p6_grassfield_170_epochs_balanced_detector": 22
+    },
+    {
+      "uav_001__uav_defocus_0p6_grassfield_170_epochs_balanced_detector": 151,
+      "uav_002__uav_gaussian_noise_0p6_grassfield_170_epochs_balanced_detector": 108,
+      "uav_003__uav_motion_blur_0p0_grassfield_170_epochs_balanced_detector": 8,
+      "uav_004__uav_pixelate_0p0_grassfield_170_epochs_balanced_detector": 7,
+      "uav_005__uav_snow_0p6_grassfield_170_epochs_balanced_detector": 23
+    },
+    {
+      "uav_001__uav_defocus_0p6_grassfield_170_epochs_balanced_detector": 55,
+      "uav_002__uav_gaussian_noise_0p6_grassfield_170_epochs_balanced_detector": 59,
+      "uav_003__uav_motion_blur_0p0_grassfield_170_epochs_balanced_detector": 129,
+      "uav_004__uav_pixelate_0p0_grassfield_170_epochs_balanced_detector": 154,
+      "uav_005__uav_snow_0p6_grassfield_170_epochs_balanced_detector": 6
+    },
+    {
+      "uav_001__uav_defocus_0p6_grassfield_170_epochs_balanced_detector": 143,
+      "uav_002__uav_gaussian_noise_0p6_grassfield_170_epochs_balanced_detector": 50,
+      "uav_003__uav_motion_blur_0p0_grassfield_170_epochs_balanced_detector": 166,
+      "uav_004__uav_pixelate_0p0_grassfield_170_epochs_balanced_detector": 139,
+      "uav_005__uav_snow_0p6_grassfield_170_epochs_balanced_detector": 107
+    },
+    {
+      "uav_001__uav_defocus_0p6_grassfield_170_epochs_balanced_detector": 56,
+      "uav_002__uav_gaussian_noise_0p6_grassfield_170_epochs_balanced_detector": 114,
+      "uav_003__uav_motion_blur_0p0_grassfield_170_epochs_balanced_detector": 150,
+      "uav_004__uav_pixelate_0p0_grassfield_170_epochs_balanced_detector": 71,
+      "uav_005__uav_snow_0p6_grassfield_170_epochs_balanced_detector": 1
+    },
+    {
+      "uav_001__uav_defocus_0p6_grassfield_170_epochs_balanced_detector": 40,
+      "uav_002__uav_gaussian_noise_0p6_grassfield_170_epochs_balanced_detector": 108,
+      "uav_003__uav_motion_blur_0p0_grassfield_170_epochs_balanced_detector": 87,
+      "uav_004__uav_pixelate_0p0_grassfield_170_epochs_balanced_detector": 71,
+      "uav_005__uav_snow_0p6_grassfield_170_epochs_balanced_detector": 39
+    },
+    {
+      "uav_001__uav_defocus_0p6_grassfield_170_epochs_balanced_detector": 55,
+      "uav_002__uav_gaussian_noise_0p6_grassfield_170_epochs_balanced_detector": 86,
+      "uav_003__uav_motion_blur_0p0_grassfield_170_epochs_balanced_detector": 26,
+      "uav_004__uav_pixelate_0p0_grassfield_170_epochs_balanced_detector": 23,
+      "uav_005__uav_snow_0p6_grassfield_170_epochs_balanced_detector": 97
+    },
+    {
+      "uav_001__uav_defocus_0p6_grassfield_170_epochs_balanced_detector": 24,
+      "uav_002__uav_gaussian_noise_0p6_grassfield_170_epochs_balanced_detector": 91,
+      "uav_003__uav_motion_blur_0p0_grassfield_170_epochs_balanced_detector": 88,
+      "uav_004__uav_pixelate_0p0_grassfield_170_epochs_balanced_detector": 154,
+      "uav_005__uav_snow_0p6_grassfield_170_epochs_balanced_detector": 67
+    },
+    {
+      "uav_001__uav_defocus_0p6_grassfield_170_epochs_balanced_detector": 11,
+      "uav_002__uav_gaussian_noise_0p6_grassfield_170_epochs_balanced_detector": 117,
+      "uav_003__uav_motion_blur_0p0_grassfield_170_epochs_balanced_detector": 137,
+      "uav_004__uav_pixelate_0p0_grassfield_170_epochs_balanced_detector": 31,
+      "uav_005__uav_snow_0p6_grassfield_170_epochs_balanced_detector": 96
+    }
+  ],
+  "comparison": [
+    {
+      "algorithm": "LCP",
+      "drones": [
+        "uav_001__uav_defocus_0p6_grassfield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_0p6_grassfield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_0p0_grassfield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_0p0_grassfield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_0p6_grassfield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 168,
+      "n_runs": 10,
+      "accuracy": 0.863,
+      "precision": 0.8915,
+      "recall": 0.9643,
+      "f1": 0.9264,
+      "tp": 27,
+      "fp": 3,
+      "fn": 1,
+      "n_gt_instances": 28,
+      "n_pred_instances": 30
+    },
+    {
+      "algorithm": "WMSR",
+      "drones": [
+        "uav_001__uav_defocus_0p6_grassfield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_0p6_grassfield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_0p0_grassfield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_0p0_grassfield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_0p6_grassfield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 168,
+      "n_runs": 10,
+      "accuracy": 0.8438,
+      "precision": 0.871,
+      "recall": 0.9643,
+      "f1": 0.9153,
+      "tp": 27,
+      "fp": 4,
+      "fn": 1,
+      "n_gt_instances": 28,
+      "n_pred_instances": 31
+    },
+    {
+      "algorithm": "CDCI",
+      "drones": [
+        "uav_001__uav_defocus_0p6_grassfield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_0p6_grassfield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_0p0_grassfield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_0p0_grassfield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_0p6_grassfield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 168,
+      "n_runs": 10,
+      "accuracy": 0.8857,
+      "precision": 0.9157,
+      "recall": 0.9643,
+      "f1": 0.9393,
+      "tp": 27,
+      "fp": 2,
+      "fn": 1,
+      "n_gt_instances": 28,
+      "n_pred_instances": 30
+    },
+    {
+      "algorithm": "DBBS",
+      "drones": [
+        "uav_001__uav_defocus_0p6_grassfield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_0p6_grassfield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_0p0_grassfield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_0p0_grassfield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_0p6_grassfield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 168,
+      "n_runs": 10,
+      "accuracy": 0.9,
+      "precision": 0.931,
+      "recall": 0.9643,
+      "f1": 0.9474,
+      "tp": 27,
+      "fp": 2,
+      "fn": 1,
+      "n_gt_instances": 28,
+      "n_pred_instances": 29
+    },
+    {
+      "algorithm": "MLES",
+      "drones": [
+        "uav_001__uav_defocus_0p6_grassfield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_0p6_grassfield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_0p0_grassfield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_0p0_grassfield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_0p6_grassfield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 168,
+      "n_runs": 10,
+      "accuracy": 0.8438,
+      "precision": 0.871,
+      "recall": 0.9643,
+      "f1": 0.9153,
+      "tp": 27,
+      "fp": 4,
+      "fn": 1,
+      "n_gt_instances": 28,
+      "n_pred_instances": 31
+    },
+    {
+      "algorithm": "EEV",
+      "drones": [
+        "uav_001__uav_defocus_0p6_grassfield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_0p6_grassfield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_0p0_grassfield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_0p0_grassfield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_0p6_grassfield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 168,
+      "n_runs": 10,
+      "accuracy": 0.9,
+      "precision": 0.931,
+      "recall": 0.9643,
+      "f1": 0.9474,
+      "tp": 27,
+      "fp": 2,
+      "fn": 1,
+      "n_gt_instances": 28,
+      "n_pred_instances": 29
+    },
+    {
+      "algorithm": "DBC",
+      "drones": [
+        "uav_001__uav_defocus_0p6_grassfield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_0p6_grassfield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_0p0_grassfield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_0p0_grassfield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_0p6_grassfield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 168,
+      "n_runs": 10,
+      "accuracy": 0.871,
+      "precision": 0.9,
+      "recall": 0.9643,
+      "f1": 0.931,
+      "tp": 27,
+      "fp": 3,
+      "fn": 1,
+      "n_gt_instances": 28,
+      "n_pred_instances": 30
+    },
+    {
+      "algorithm": "NO_CONSENSUS",
+      "drones": [
+        "uav_001__uav_defocus_0p6_grassfield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_0p6_grassfield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_0p0_grassfield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_0p0_grassfield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_0p6_grassfield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 168,
+      "n_runs": 10,
+      "accuracy": 0.4968,
+      "precision": 0.837,
+      "recall": 0.55,
+      "f1": 0.6638,
+      "tp": 15,
+      "fp": 3,
+      "fn": 13,
+      "n_gt_instances": 28,
+      "n_pred_instances": 18
+    },
+    {
+      "algorithm": "MAJORITY_VOTE",
+      "drones": [
+        "uav_001__uav_defocus_0p6_grassfield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_0p6_grassfield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_0p0_grassfield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_0p0_grassfield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_0p6_grassfield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 168,
+      "n_runs": 10,
+      "accuracy": 0.7419,
+      "precision": 0.8846,
+      "recall": 0.8214,
+      "f1": 0.8519,
+      "tp": 23,
+      "fp": 3,
+      "fn": 5,
+      "n_gt_instances": 28,
+      "n_pred_instances": 26
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mine-detection-consensus-benchmark"
+version = "0.1.0"
+description = "Robust multi-agent mine detection benchmark"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "pillow",
+    "pyyaml",
+    "opencv-python-headless",
+    "tqdm",
+    "loguru",
+    "torch",
+    "ultralytics",
+]
+
+[project.scripts]
+execute_observations = "benchmark.cli:execute_observations"
+execute_consensus = "benchmark.cli:execute_consensus"
+visualize_paper_figures = "benchmark.cli:visualize_paper_figures"
+visualize_consensus_results = "benchmark.cli:visualize_consensus_results"
+visualize_uav_predictions = "benchmark.cli:visualize_uav_predictions"
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "pytest",
+    "ruff",
+]
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 88

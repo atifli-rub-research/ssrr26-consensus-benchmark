@@ -1,0 +1,7595 @@
+[
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 0,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 0,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0000_c0000",
+      "row": 0,
+      "col": 0,
+      "tile_bounds_xyxy": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.4637279212474823,
+        "bbox_xyxy": [
+          724.1860961914062,
+          926.104736328125,
+          757.3516845703125,
+          951.9568481445312
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.28371837735176086,
+        "bbox_xyxy": [
+          703.8963623046875,
+          926.1887817382812,
+          743.5745239257812,
+          951.7184448242188
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 1,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 1,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0000_c0001",
+      "row": 0,
+      "col": 1,
+      "tile_bounds_xyxy": [
+        1024,
+        0,
+        2048,
+        1024
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 2,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 2,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0000_c0002",
+      "row": 0,
+      "col": 2,
+      "tile_bounds_xyxy": [
+        2048,
+        0,
+        3072,
+        1024
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.8385811448097229,
+        "bbox_xyxy": [
+          168.4767608642578,
+          950.8824462890625,
+          220.15097045898438,
+          977.000244140625
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.7552046775817871,
+        "bbox_xyxy": [
+          368.2677917480469,
+          756.0646362304688,
+          417.220458984375,
+          781.605224609375
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 3,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 3,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0000_c0003",
+      "row": 0,
+      "col": 3,
+      "tile_bounds_xyxy": [
+        3072,
+        0,
+        4096,
+        1024
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 4,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 4,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0000_c0004",
+      "row": 0,
+      "col": 4,
+      "tile_bounds_xyxy": [
+        4096,
+        0,
+        5120,
+        1024
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.2802964448928833,
+        "bbox_xyxy": [
+          0.0,
+          338.9316711425781,
+          26.744728088378906,
+          391.15570068359375
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 5,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 5,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0000_c0005",
+      "row": 0,
+      "col": 5,
+      "tile_bounds_xyxy": [
+        5120,
+        0,
+        6144,
+        1024
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 6,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 6,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0000_c0006",
+      "row": 0,
+      "col": 6,
+      "tile_bounds_xyxy": [
+        6144,
+        0,
+        7168,
+        1024
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 7,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 7,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0000_c0007",
+      "row": 0,
+      "col": 7,
+      "tile_bounds_xyxy": [
+        7168,
+        0,
+        8192,
+        1024
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.4004902243614197,
+        "bbox_xyxy": [
+          681.2625122070312,
+          292.55279541015625,
+          707.8442993164062,
+          316.7544860839844
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 8,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 8,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0000_c0008",
+      "row": 0,
+      "col": 8,
+      "tile_bounds_xyxy": [
+        8192,
+        0,
+        9216,
+        1024
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.42439863085746765,
+        "bbox_xyxy": [
+          534.1866455078125,
+          925.3258666992188,
+          561.3945922851562,
+          952.370361328125
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 9,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 9,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0000_c0009",
+      "row": 0,
+      "col": 9,
+      "tile_bounds_xyxy": [
+        9216,
+        0,
+        10240,
+        1024
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 10,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 10,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0000_c0010",
+      "row": 0,
+      "col": 10,
+      "tile_bounds_xyxy": [
+        10240,
+        0,
+        11264,
+        1024
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 11,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 11,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0001_c0000",
+      "row": 1,
+      "col": 0,
+      "tile_bounds_xyxy": [
+        0,
+        1024,
+        1024,
+        2048
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.39563941955566406,
+        "bbox_xyxy": [
+          534.0662231445312,
+          692.4874267578125,
+          562.8511352539062,
+          732.1531372070312
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.26298457384109497,
+        "bbox_xyxy": [
+          997.8482666015625,
+          230.04550170898438,
+          1024.0,
+          269.66009521484375
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 12,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 12,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0001_c0001",
+      "row": 1,
+      "col": 1,
+      "tile_bounds_xyxy": [
+        1024,
+        1024,
+        2048,
+        2048
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 3,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.727760374546051,
+        "bbox_xyxy": [
+          632.4229125976562,
+          974.2022094726562,
+          686.4786376953125,
+          1001.5773315429688
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.518345296382904,
+        "bbox_xyxy": [
+          972.8779296875,
+          901.4791259765625,
+          1023.27294921875,
+          926.864501953125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.39543578028678894,
+        "bbox_xyxy": [
+          996.92431640625,
+          925.3538818359375,
+          1024.0,
+          951.9801025390625
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 13,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 13,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0001_c0002",
+      "row": 1,
+      "col": 2,
+      "tile_bounds_xyxy": [
+        2048,
+        1024,
+        3072,
+        2048
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 4,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.9154393076896667,
+        "bbox_xyxy": [
+          777.8600463867188,
+          633.9833374023438,
+          830.7219848632812,
+          658.66943359375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.8781448006629944,
+        "bbox_xyxy": [
+          0.0,
+          462.1224670410156,
+          50.68110275268555,
+          489.6024169921875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.2949731945991516,
+        "bbox_xyxy": [
+          558.9878540039062,
+          757.54296875,
+          586.6150512695312,
+          780.9132690429688
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.2840712368488312,
+        "bbox_xyxy": [
+          435.59173583984375,
+          828.363525390625,
+          464.38995361328125,
+          853.3475341796875
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 14,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 14,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0001_c0003",
+      "row": 1,
+      "col": 3,
+      "tile_bounds_xyxy": [
+        3072,
+        1024,
+        4096,
+        2048
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 6,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.8152452707290649,
+        "bbox_xyxy": [
+          93.96185302734375,
+          512.9718017578125,
+          148.6459197998047,
+          536.1885986328125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.7055307626724243,
+        "bbox_xyxy": [
+          364.4543762207031,
+          707.1878051757812,
+          416.7393798828125,
+          731.31494140625
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.6140134334564209,
+        "bbox_xyxy": [
+          0.0,
+          510.0188903808594,
+          26.601825714111328,
+          562.8496704101562
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.551493227481842,
+        "bbox_xyxy": [
+          290.1357116699219,
+          537.08837890625,
+          342.4528503417969,
+          561.1148071289062
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.4624707102775574,
+        "bbox_xyxy": [
+          21.890188217163086,
+          901.8341674804688,
+          50.10967254638672,
+          926.5330810546875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.2744670510292053,
+        "bbox_xyxy": [
+          364.16815185546875,
+          707.6227416992188,
+          415.849853515625,
+          730.8953857421875
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 15,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 15,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0001_c0004",
+      "row": 1,
+      "col": 4,
+      "tile_bounds_xyxy": [
+        4096,
+        1024,
+        5120,
+        2048
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.34430718421936035,
+        "bbox_xyxy": [
+          290.2415771484375,
+          657.801513671875,
+          318.11834716796875,
+          681.67041015625
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 16,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 16,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0001_c0005",
+      "row": 1,
+      "col": 5,
+      "tile_bounds_xyxy": [
+        5120,
+        1024,
+        6144,
+        2048
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.6799334287643433,
+        "bbox_xyxy": [
+          0.0,
+          972.6659545898438,
+          27.60083770751953,
+          1024.0
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.2517704665660858,
+        "bbox_xyxy": [
+          191.45643615722656,
+          195.1223907470703,
+          246.43630981445312,
+          220.9364471435547
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 17,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 17,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0001_c0006",
+      "row": 1,
+      "col": 6,
+      "tile_bounds_xyxy": [
+        6144,
+        1024,
+        7168,
+        2048
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 6,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.765838086605072,
+        "bbox_xyxy": [
+          704.7850952148438,
+          561.56640625,
+          732.026123046875,
+          584.34619140625
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.6601542830467224,
+        "bbox_xyxy": [
+          998.4566040039062,
+          829.5677490234375,
+          1024.0,
+          852.438232421875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5140172243118286,
+        "bbox_xyxy": [
+          364.11297607421875,
+          340.5507507324219,
+          414.86199951171875,
+          364.5157470703125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.4874475598335266,
+        "bbox_xyxy": [
+          386.8221435546875,
+          364.0184020996094,
+          415.4037780761719,
+          417.5687255859375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.38571056723594666,
+        "bbox_xyxy": [
+          704.8377685546875,
+          561.8690185546875,
+          732.240234375,
+          584.4456176757812
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.2789474129676819,
+        "bbox_xyxy": [
+          509.7515869140625,
+          315.4714660644531,
+          565.0648193359375,
+          370.6770935058594
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 18,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 18,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0001_c0007",
+      "row": 1,
+      "col": 7,
+      "tile_bounds_xyxy": [
+        7168,
+        1024,
+        8192,
+        2048
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 5,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.807869553565979,
+        "bbox_xyxy": [
+          530.0859985351562,
+          132.6236572265625,
+          588.06787109375,
+          173.52166748046875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.7984849810600281,
+        "bbox_xyxy": [
+          288.800048828125,
+          169.9283905029297,
+          342.5066833496094,
+          196.4160614013672
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.7761017680168152,
+        "bbox_xyxy": [
+          532.7769165039062,
+          122.145263671875,
+          585.9595947265625,
+          148.37950134277344
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5009973049163818,
+        "bbox_xyxy": [
+          313.0890197753906,
+          463.7716369628906,
+          367.890380859375,
+          488.7017517089844
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.4725879430770874,
+        "bbox_xyxy": [
+          119.75880432128906,
+          315.49127197265625,
+          147.43142700195312,
+          340.0899658203125
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 19,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 19,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0001_c0008",
+      "row": 1,
+      "col": 8,
+      "tile_bounds_xyxy": [
+        8192,
+        1024,
+        9216,
+        2048
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 5,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.839343249797821,
+        "bbox_xyxy": [
+          69.78346252441406,
+          436.9892272949219,
+          99.40316009521484,
+          489.2627868652344
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.544211208820343,
+        "bbox_xyxy": [
+          0.0,
+          320.3466796875,
+          27.683683395385742,
+          368.1205139160156
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3441028892993927,
+        "bbox_xyxy": [
+          93.95864868164062,
+          972.6041259765625,
+          123.30314636230469,
+          1000.1362915039062
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3101901113986969,
+        "bbox_xyxy": [
+          141.74667358398438,
+          629.2660522460938,
+          173.21441650390625,
+          685.135498046875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.2608890235424042,
+        "bbox_xyxy": [
+          191.3757781982422,
+          634.6420288085938,
+          220.90618896484375,
+          656.6494140625
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 20,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 20,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0001_c0009",
+      "row": 1,
+      "col": 9,
+      "tile_bounds_xyxy": [
+        9216,
+        1024,
+        10240,
+        2048
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.38722720742225647,
+        "bbox_xyxy": [
+          631.9067993164062,
+          585.3074951171875,
+          683.9817504882812,
+          610.2740478515625
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 21,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 21,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0001_c0010",
+      "row": 1,
+      "col": 10,
+      "tile_bounds_xyxy": [
+        10240,
+        1024,
+        11264,
+        2048
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 22,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 22,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0002_c0000",
+      "row": 2,
+      "col": 0,
+      "tile_bounds_xyxy": [
+        0,
+        2048,
+        1024,
+        3072
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 23,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 23,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0002_c0001",
+      "row": 2,
+      "col": 1,
+      "tile_bounds_xyxy": [
+        1024,
+        2048,
+        2048,
+        3072
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 6,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.781457781791687,
+        "bbox_xyxy": [
+          23.800363540649414,
+          926.1494750976562,
+          73.77409362792969,
+          953.4866943359375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.7479857802391052,
+        "bbox_xyxy": [
+          141.731201171875,
+          608.843505859375,
+          197.08152770996094,
+          635.2966918945312
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.6102214455604553,
+        "bbox_xyxy": [
+          362.08642578125,
+          512.9362182617188,
+          415.7529602050781,
+          536.7285766601562
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.6090973615646362,
+        "bbox_xyxy": [
+          946.1593017578125,
+          46.65306854248047,
+          977.3931884765625,
+          100.53688049316406
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.4650137424468994,
+        "bbox_xyxy": [
+          680.6890258789062,
+          291.90155029296875,
+          708.3316650390625,
+          317.09613037109375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.44970595836639404,
+        "bbox_xyxy": [
+          364.3642883300781,
+          364.9105529785156,
+          391.04034423828125,
+          389.5818786621094
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 24,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 24,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0002_c0002",
+      "row": 2,
+      "col": 2,
+      "tile_bounds_xyxy": [
+        2048,
+        2048,
+        3072,
+        3072
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.47990933060646057,
+        "bbox_xyxy": [
+          753.8734741210938,
+          438.7704162597656,
+          781.5050659179688,
+          463.7940979003906
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3542234003543854,
+        "bbox_xyxy": [
+          167.90493774414062,
+          462.1728515625,
+          196.58338928222656,
+          489.12261962890625
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 25,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 25,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0002_c0003",
+      "row": 2,
+      "col": 3,
+      "tile_bounds_xyxy": [
+        3072,
+        2048,
+        4096,
+        3072
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 5,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.800735592842102,
+        "bbox_xyxy": [
+          168.48536682128906,
+          25.08247947692871,
+          220.8530731201172,
+          48.98401641845703
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.7410743236541748,
+        "bbox_xyxy": [
+          168.54373168945312,
+          267.1606750488281,
+          196.8282928466797,
+          293.219482421875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.7340839505195618,
+        "bbox_xyxy": [
+          190.36636352539062,
+          634.0993041992188,
+          246.58143615722656,
+          658.3292846679688
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5080947875976562,
+        "bbox_xyxy": [
+          339.20526123046875,
+          683.7708740234375,
+          391.8589172363281,
+          706.9144897460938
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.28680214285850525,
+        "bbox_xyxy": [
+          90.14482116699219,
+          47.77294921875,
+          124.05593872070312,
+          72.96452331542969
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 26,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 26,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0002_c0004",
+      "row": 2,
+      "col": 4,
+      "tile_bounds_xyxy": [
+        4096,
+        2048,
+        5120,
+        3072
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 27,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 27,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0002_c0005",
+      "row": 2,
+      "col": 5,
+      "tile_bounds_xyxy": [
+        5120,
+        2048,
+        6144,
+        3072
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 28,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 28,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0002_c0006",
+      "row": 2,
+      "col": 6,
+      "tile_bounds_xyxy": [
+        6144,
+        2048,
+        7168,
+        3072
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 4,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.7992282509803772,
+        "bbox_xyxy": [
+          143.43653869628906,
+          730.9120483398438,
+          197.6103515625,
+          756.9633178710938
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.729763925075531,
+        "bbox_xyxy": [
+          314.1767272949219,
+          657.394287109375,
+          368.37799072265625,
+          685.3564453125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.4538778066635132,
+        "bbox_xyxy": [
+          531.9441528320312,
+          268.3349609375,
+          586.8125610351562,
+          293.2735290527344
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.30367937684059143,
+        "bbox_xyxy": [
+          705.3029174804688,
+          25.388927459716797,
+          731.9371337890625,
+          48.09576416015625
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 29,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 29,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0002_c0007",
+      "row": 2,
+      "col": 7,
+      "tile_bounds_xyxy": [
+        7168,
+        2048,
+        8192,
+        3072
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 9,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.8899837732315063,
+        "bbox_xyxy": [
+          556.8753662109375,
+          951.1433715820312,
+          613.077880859375,
+          976.6776733398438
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.8125302791595459,
+        "bbox_xyxy": [
+          192.19522094726562,
+          122.26403045654297,
+          245.88418579101562,
+          146.55747985839844
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.7492237687110901,
+        "bbox_xyxy": [
+          3.2070064544677734,
+          950.8256225585938,
+          50.194087982177734,
+          976.9454345703125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.7386053204536438,
+        "bbox_xyxy": [
+          509.51214599609375,
+          683.0093994140625,
+          562.1743774414062,
+          708.3107299804688
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.7260940670967102,
+        "bbox_xyxy": [
+          508.0355224609375,
+          698.5620727539062,
+          564.4551391601562,
+          733.7940673828125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.47980350255966187,
+        "bbox_xyxy": [
+          265.4995422363281,
+          719.3735961914062,
+          319.4389343261719,
+          757.85498046875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.47446969151496887,
+        "bbox_xyxy": [
+          998.2570190429688,
+          244.9188995361328,
+          1024.0,
+          268.79473876953125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.4491424262523651,
+        "bbox_xyxy": [
+          997.8863525390625,
+          244.31951904296875,
+          1024.0,
+          269.04254150390625
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.4001324772834778,
+        "bbox_xyxy": [
+          824.8184814453125,
+          1000.9021606445312,
+          882.3414306640625,
+          1024.0
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 30,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 30,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0002_c0008",
+      "row": 2,
+      "col": 8,
+      "tile_bounds_xyxy": [
+        8192,
+        2048,
+        9216,
+        3072
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 10,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.5870911478996277,
+        "bbox_xyxy": [
+          70.29510498046875,
+          489.5997619628906,
+          98.54589080810547,
+          513.53564453125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5364218354225159,
+        "bbox_xyxy": [
+          85.62702941894531,
+          169.36428833007812,
+          122.91558837890625,
+          224.94090270996094
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.4569252133369446,
+        "bbox_xyxy": [
+          373.0395202636719,
+          533.7028198242188,
+          415.8244323730469,
+          589.5579223632812
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.39645522832870483,
+        "bbox_xyxy": [
+          437.4048767089844,
+          877.005859375,
+          464.4249267578125,
+          902.4603271484375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.38205084204673767,
+        "bbox_xyxy": [
+          217.25228881835938,
+          340.5553283691406,
+          244.42941284179688,
+          365.55718994140625
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3775767683982849,
+        "bbox_xyxy": [
+          433.6092224121094,
+          337.9776306152344,
+          468.2754211425781,
+          394.41455078125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3091963529586792,
+        "bbox_xyxy": [
+          165.5359344482422,
+          0.0,
+          222.37330627441406,
+          24.12470245361328
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.29145920276641846,
+        "bbox_xyxy": [
+          0.0,
+          217.32199096679688,
+          26.755878448486328,
+          245.32626342773438
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.2828288972377777,
+        "bbox_xyxy": [
+          189.48959350585938,
+          192.7755126953125,
+          246.89466857910156,
+          220.0938720703125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.2773163318634033,
+        "bbox_xyxy": [
+          119.8023910522461,
+          684.2945556640625,
+          147.47198486328125,
+          707.76025390625
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 31,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 31,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0002_c0009",
+      "row": 2,
+      "col": 9,
+      "tile_bounds_xyxy": [
+        9216,
+        2048,
+        10240,
+        3072
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 32,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 32,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0002_c0010",
+      "row": 2,
+      "col": 10,
+      "tile_bounds_xyxy": [
+        10240,
+        2048,
+        11264,
+        3072
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 33,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 33,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0003_c0000",
+      "row": 3,
+      "col": 0,
+      "tile_bounds_xyxy": [
+        0,
+        3072,
+        1024,
+        4096
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 34,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 34,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0003_c0001",
+      "row": 3,
+      "col": 1,
+      "tile_bounds_xyxy": [
+        1024,
+        3072,
+        2048,
+        4096
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 10,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.8065510988235474,
+        "bbox_xyxy": [
+          705.04833984375,
+          489.5453796386719,
+          758.1234130859375,
+          512.8473510742188
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.7161959409713745,
+        "bbox_xyxy": [
+          226.8276824951172,
+          1000.9371948242188,
+          270.71002197265625,
+          1024.0
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.6941068768501282,
+        "bbox_xyxy": [
+          679.9644775390625,
+          463.7752380371094,
+          732.7434692382812,
+          488.32061767578125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5425084233283997,
+        "bbox_xyxy": [
+          216.60186767578125,
+          974.9892578125,
+          246.81036376953125,
+          999.8948364257812
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5257578492164612,
+        "bbox_xyxy": [
+          655.5869750976562,
+          999.78515625,
+          685.3731689453125,
+          1024.0
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5250173807144165,
+        "bbox_xyxy": [
+          583.0211181640625,
+          779.7203979492188,
+          610.9965209960938,
+          805.1627197265625
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3150760531425476,
+        "bbox_xyxy": [
+          217.73324584960938,
+          1001.4752807617188,
+          270.01507568359375,
+          1024.0
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.29514607787132263,
+        "bbox_xyxy": [
+          216.26670837402344,
+          1000.8866577148438,
+          256.1280517578125,
+          1023.8442993164062
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.26524776220321655,
+        "bbox_xyxy": [
+          487.5057373046875,
+          804.2236328125,
+          513.4560546875,
+          829.20849609375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.25555211305618286,
+        "bbox_xyxy": [
+          678.6145629882812,
+          463.5833435058594,
+          720.4592895507812,
+          488.0616760253906
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 35,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 35,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0003_c0002",
+      "row": 3,
+      "col": 2,
+      "tile_bounds_xyxy": [
+        2048,
+        3072,
+        3072,
+        4096
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.810978889465332,
+        "bbox_xyxy": [
+          168.90560913085938,
+          708.2127685546875,
+          222.5197296142578,
+          731.5306396484375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.6560754776000977,
+        "bbox_xyxy": [
+          532.5755615234375,
+          92.63323974609375,
+          587.9310913085938,
+          123.65074157714844
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 36,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 36,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0003_c0003",
+      "row": 3,
+      "col": 3,
+      "tile_bounds_xyxy": [
+        3072,
+        3072,
+        4096,
+        4096
+      ],
+      "mine_present": true,
+      "mine_count": 1,
+      "boxes": [
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            369.06594641023685,
+            432.1221286742975,
+            401.72004079698263,
+            482.7922751364913
+          ]
+        }
+      ]
+    },
+    "true_mine_count": 1,
+    "true_mine_present": true,
+    "num_detections": 6,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.8236517310142517,
+        "bbox_xyxy": [
+          289.84210205078125,
+          315.985107421875,
+          340.7917785644531,
+          341.58154296875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.7558223009109497,
+        "bbox_xyxy": [
+          364.1622009277344,
+          439.2007141113281,
+          416.4707336425781,
+          464.9371032714844
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5263334512710571,
+        "bbox_xyxy": [
+          289.0103454589844,
+          681.8497924804688,
+          318.72137451171875,
+          734.59814453125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5144383311271667,
+        "bbox_xyxy": [
+          194.58509826660156,
+          804.6693115234375,
+          220.04238891601562,
+          828.9962158203125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.42057183384895325,
+        "bbox_xyxy": [
+          166.33462524414062,
+          70.2619857788086,
+          222.78018188476562,
+          125.56228637695312
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.2875709533691406,
+        "bbox_xyxy": [
+          725.9364624023438,
+          511.02532958984375,
+          782.7473754882812,
+          536.6913452148438
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 37,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 37,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0003_c0004",
+      "row": 3,
+      "col": 4,
+      "tile_bounds_xyxy": [
+        4096,
+        3072,
+        5120,
+        4096
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.5000678896903992,
+        "bbox_xyxy": [
+          505.68975830078125,
+          96.06208801269531,
+          538.9822998046875,
+          147.54661560058594
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 38,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 38,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0003_c0005",
+      "row": 3,
+      "col": 5,
+      "tile_bounds_xyxy": [
+        5120,
+        3072,
+        6144,
+        4096
+      ],
+      "mine_present": true,
+      "mine_count": 1,
+      "boxes": [
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            522.4023093788273,
+            578.5025517872996,
+            569.6944460768736,
+            612.2826494287615
+          ]
+        }
+      ]
+    },
+    "true_mine_count": 1,
+    "true_mine_present": true,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 39,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 39,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0003_c0006",
+      "row": 3,
+      "col": 6,
+      "tile_bounds_xyxy": [
+        6144,
+        3072,
+        7168,
+        4096
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 40,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 40,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0003_c0007",
+      "row": 3,
+      "col": 7,
+      "tile_bounds_xyxy": [
+        7168,
+        3072,
+        8192,
+        4096
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 7,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.6485361456871033,
+        "bbox_xyxy": [
+          145.97296142578125,
+          902.1112670898438,
+          195.0779266357422,
+          927.2257080078125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.6403884887695312,
+        "bbox_xyxy": [
+          162.4003143310547,
+          901.9617919921875,
+          196.4887237548828,
+          926.536865234375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.47074130177497864,
+        "bbox_xyxy": [
+          532.3582153320312,
+          0.0,
+          587.4169311523438,
+          25.492984771728516
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.38566645979881287,
+        "bbox_xyxy": [
+          0.0,
+          536.8733520507812,
+          50.537940979003906,
+          561.2237548828125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.36375293135643005,
+        "bbox_xyxy": [
+          166.04734802246094,
+          901.4253540039062,
+          196.12835693359375,
+          926.3392944335938
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.32057255506515503,
+        "bbox_xyxy": [
+          532.1839599609375,
+          24.605287551879883,
+          587.3223876953125,
+          49.08734893798828
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.31614062190055847,
+        "bbox_xyxy": [
+          140.8949432373047,
+          902.2677001953125,
+          190.41961669921875,
+          927.1622314453125
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 41,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 41,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0003_c0008",
+      "row": 3,
+      "col": 8,
+      "tile_bounds_xyxy": [
+        8192,
+        3072,
+        9216,
+        4096
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 6,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.7667023539543152,
+        "bbox_xyxy": [
+          606.270263671875,
+          974.808837890625,
+          661.0780029296875,
+          1000.7583618164062
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.6616858243942261,
+        "bbox_xyxy": [
+          144.20236206054688,
+          731.4691772460938,
+          172.2543487548828,
+          757.0380859375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.48666954040527344,
+        "bbox_xyxy": [
+          194.35137939453125,
+          215.5753631591797,
+          221.2074432373047,
+          245.92913818359375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.31589627265930176,
+        "bbox_xyxy": [
+          703.4574584960938,
+          95.60310363769531,
+          758.04833984375,
+          122.64286804199219
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.2969921827316284,
+        "bbox_xyxy": [
+          142.24501037597656,
+          707.3193969726562,
+          172.4783477783203,
+          729.9466552734375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.2505124807357788,
+        "bbox_xyxy": [
+          141.94570922851562,
+          707.379150390625,
+          173.93157958984375,
+          729.982421875
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 42,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 42,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0003_c0009",
+      "row": 3,
+      "col": 9,
+      "tile_bounds_xyxy": [
+        9216,
+        3072,
+        10240,
+        4096
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 43,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 43,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0003_c0010",
+      "row": 3,
+      "col": 10,
+      "tile_bounds_xyxy": [
+        10240,
+        3072,
+        11264,
+        4096
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 44,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 44,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0004_c0000",
+      "row": 4,
+      "col": 0,
+      "tile_bounds_xyxy": [
+        0,
+        4096,
+        1024,
+        5120
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 45,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 45,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0004_c0001",
+      "row": 4,
+      "col": 1,
+      "tile_bounds_xyxy": [
+        1024,
+        4096,
+        2048,
+        5120
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 7,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.8709297180175781,
+        "bbox_xyxy": [
+          948.7523193359375,
+          633.8723754882812,
+          1001.2614135742188,
+          659.0192260742188
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.8153374791145325,
+        "bbox_xyxy": [
+          94.89672088623047,
+          682.091064453125,
+          123.10136413574219,
+          733.6731567382812
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.7702481150627136,
+        "bbox_xyxy": [
+          412.3044738769531,
+          683.8397827148438,
+          466.16949462890625,
+          707.9014282226562
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.7357401251792908,
+        "bbox_xyxy": [
+          728.6198120117188,
+          925.1287231445312,
+          757.0776977539062,
+          951.95458984375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.6545851230621338,
+        "bbox_xyxy": [
+          365.2657165527344,
+          920.1876831054688,
+          416.4159851074219,
+          953.6103515625
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.41496556997299194,
+        "bbox_xyxy": [
+          141.9108123779297,
+          694.7672729492188,
+          174.08493041992188,
+          731.9329833984375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.34405919909477234,
+        "bbox_xyxy": [
+          510.137939453125,
+          386.1793212890625,
+          537.4524536132812,
+          415.0640869140625
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 46,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 46,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0004_c0002",
+      "row": 4,
+      "col": 2,
+      "tile_bounds_xyxy": [
+        2048,
+        4096,
+        3072,
+        5120
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.5435741543769836,
+        "bbox_xyxy": [
+          0.0,
+          72.6563491821289,
+          26.853710174560547,
+          98.5447998046875
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 47,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 47,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0004_c0003",
+      "row": 4,
+      "col": 3,
+      "tile_bounds_xyxy": [
+        3072,
+        4096,
+        4096,
+        5120
+      ],
+      "mine_present": true,
+      "mine_count": 2,
+      "boxes": [
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            -0.2631211364137016,
+            536.3773898991212,
+            48.15501881634782,
+            571.2834907952974
+          ]
+        },
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            720.378961881438,
+            30.80192853191147,
+            772.1751115983461,
+            60.0780131545107
+          ]
+        }
+      ]
+    },
+    "true_mine_count": 2,
+    "true_mine_present": true,
+    "num_detections": 6,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.7869197130203247,
+        "bbox_xyxy": [
+          96.57189178466797,
+          585.4913330078125,
+          146.65167236328125,
+          609.9403686523438
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5554015636444092,
+        "bbox_xyxy": [
+          506.92633056640625,
+          634.5066528320312,
+          564.1605224609375,
+          686.3983764648438
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5381098389625549,
+        "bbox_xyxy": [
+          95.40219116210938,
+          608.37939453125,
+          147.88241577148438,
+          635.1657104492188
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.48283469676971436,
+        "bbox_xyxy": [
+          0.26340675354003906,
+          537.0924682617188,
+          50.45436096191406,
+          561.281005859375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.37727484107017517,
+        "bbox_xyxy": [
+          975.636474609375,
+          24.32501220703125,
+          1024.0,
+          48.952247619628906
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.31136828660964966,
+        "bbox_xyxy": [
+          972.72412109375,
+          269.7328186035156,
+          1001.5975952148438,
+          292.9442138671875
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 48,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 48,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0004_c0004",
+      "row": 4,
+      "col": 4,
+      "tile_bounds_xyxy": [
+        4096,
+        4096,
+        5120,
+        5120
+      ],
+      "mine_present": true,
+      "mine_count": 1,
+      "boxes": [
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            557.7714517387121,
+            555.5194452292835,
+            594.9295591443206,
+            606.1895916914764
+          ]
+        }
+      ]
+    },
+    "true_mine_count": 1,
+    "true_mine_present": true,
+    "num_detections": 7,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.9024981260299683,
+        "bbox_xyxy": [
+          654.7432250976562,
+          633.6129760742188,
+          708.6306762695312,
+          657.9341430664062
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.8700698614120483,
+        "bbox_xyxy": [
+          44.62138366699219,
+          974.8342895507812,
+          102.94377899169922,
+          1000.4617919921875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.8341581225395203,
+        "bbox_xyxy": [
+          650.6114501953125,
+          642.9060668945312,
+          712.5381469726562,
+          685.9955444335938
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.646625816822052,
+        "bbox_xyxy": [
+          557.0245971679688,
+          558.4061279296875,
+          587.0923461914062,
+          612.0184326171875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.6302951574325562,
+        "bbox_xyxy": [
+          728.2054443359375,
+          49.34644317626953,
+          757.72509765625,
+          71.38765716552734
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.41126587986946106,
+        "bbox_xyxy": [
+          45.06218719482422,
+          949.5266723632812,
+          102.08245086669922,
+          975.210693359375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.27280348539352417,
+        "bbox_xyxy": [
+          169.62181091308594,
+          410.7958679199219,
+          196.47463989257812,
+          467.7312927246094
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 49,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 49,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0004_c0005",
+      "row": 4,
+      "col": 5,
+      "tile_bounds_xyxy": [
+        5120,
+        4096,
+        6144,
+        5120
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.41870808601379395,
+        "bbox_xyxy": [
+          189.6030731201172,
+          951.5593872070312,
+          247.77609252929688,
+          976.1543579101562
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 50,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 50,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0004_c0006",
+      "row": 4,
+      "col": 6,
+      "tile_bounds_xyxy": [
+        6144,
+        4096,
+        7168,
+        5120
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.8311184048652649,
+        "bbox_xyxy": [
+          558.1726684570312,
+          755.6198120117188,
+          613.181396484375,
+          783.447509765625
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 51,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 51,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0004_c0007",
+      "row": 4,
+      "col": 7,
+      "tile_bounds_xyxy": [
+        7168,
+        4096,
+        8192,
+        5120
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 4,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.5333540439605713,
+        "bbox_xyxy": [
+          410.6923522949219,
+          585.042724609375,
+          462.4202880859375,
+          610.3138427734375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5154533386230469,
+        "bbox_xyxy": [
+          555.8970336914062,
+          143.06019592285156,
+          614.5238647460938,
+          200.36634826660156
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3731490671634674,
+        "bbox_xyxy": [
+          441.8163757324219,
+          584.8782348632812,
+          489.8553771972656,
+          610.3438110351562
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.2639511823654175,
+        "bbox_xyxy": [
+          239.96536254882812,
+          95.54096984863281,
+          270.1361389160156,
+          147.70425415039062
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 52,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 52,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0004_c0008",
+      "row": 4,
+      "col": 8,
+      "tile_bounds_xyxy": [
+        8192,
+        4096,
+        9216,
+        5120
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 5,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.8805901408195496,
+        "bbox_xyxy": [
+          140.95840454101562,
+          609.7918090820312,
+          197.08103942871094,
+          634.9559326171875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5207788348197937,
+        "bbox_xyxy": [
+          147.0582275390625,
+          629.5576171875,
+          196.3917236328125,
+          658.7998046875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5134584903717041,
+        "bbox_xyxy": [
+          157.9525909423828,
+          630.3590087890625,
+          197.15240478515625,
+          658.6215209960938
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.27226370573043823,
+        "bbox_xyxy": [
+          631.0748901367188,
+          975.126953125,
+          659.43798828125,
+          1000.5977172851562
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.2543669044971466,
+        "bbox_xyxy": [
+          630.7540893554688,
+          974.8355712890625,
+          659.4620971679688,
+          1000.6531982421875
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 53,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 53,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0004_c0009",
+      "row": 4,
+      "col": 9,
+      "tile_bounds_xyxy": [
+        9216,
+        4096,
+        10240,
+        5120
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.39403828978538513,
+        "bbox_xyxy": [
+          48.3826789855957,
+          950.7816162109375,
+          73.45690155029297,
+          975.2429809570312
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 54,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 54,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0004_c0010",
+      "row": 4,
+      "col": 10,
+      "tile_bounds_xyxy": [
+        10240,
+        4096,
+        11264,
+        5120
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 55,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 55,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0005_c0000",
+      "row": 5,
+      "col": 0,
+      "tile_bounds_xyxy": [
+        0,
+        5120,
+        1024,
+        6144
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 56,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 56,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0005_c0001",
+      "row": 5,
+      "col": 1,
+      "tile_bounds_xyxy": [
+        1024,
+        5120,
+        2048,
+        6144
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.3042440116405487,
+        "bbox_xyxy": [
+          482.599609375,
+          730.6153564453125,
+          513.0591430664062,
+          757.4197998046875
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 57,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 57,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0005_c0002",
+      "row": 5,
+      "col": 2,
+      "tile_bounds_xyxy": [
+        2048,
+        5120,
+        3072,
+        6144
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 58,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 58,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0005_c0003",
+      "row": 5,
+      "col": 3,
+      "tile_bounds_xyxy": [
+        3072,
+        5120,
+        4096,
+        6144
+      ],
+      "mine_present": true,
+      "mine_count": 2,
+      "boxes": [
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            208.04748098593564,
+            958.1655689536838,
+            250.83560466512017,
+            1005.4577056517301
+          ]
+        },
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            606.652633155184,
+            819.6671686236914,
+            656.1967763626617,
+            852.3212630104372
+          ]
+        }
+      ]
+    },
+    "true_mine_count": 2,
+    "true_mine_present": true,
+    "num_detections": 5,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.5492359399795532,
+        "bbox_xyxy": [
+          606.1593627929688,
+          827.7886352539062,
+          660.2427978515625,
+          852.8154907226562
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5040714144706726,
+        "bbox_xyxy": [
+          459.10546875,
+          630.009521484375,
+          517.0474853515625,
+          688.423828125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3754000961780548,
+        "bbox_xyxy": [
+          216.0486602783203,
+          974.5725708007812,
+          245.3255615234375,
+          1000.6754760742188
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3552141785621643,
+        "bbox_xyxy": [
+          972.5958251953125,
+          691.9385375976562,
+          1003.1337890625,
+          732.8914794921875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.33671140670776367,
+        "bbox_xyxy": [
+          436.4608459472656,
+          803.590087890625,
+          487.3808898925781,
+          829.7628784179688
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 59,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 59,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0005_c0004",
+      "row": 5,
+      "col": 4,
+      "tile_bounds_xyxy": [
+        4096,
+        5120,
+        5120,
+        6144
+      ],
+      "mine_present": true,
+      "mine_count": 1,
+      "boxes": [
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            682.757813012121,
+            160.95526461518602,
+            728.923946455453,
+            199.2393752755088
+          ]
+        }
+      ]
+    },
+    "true_mine_count": 1,
+    "true_mine_present": true,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.8751100301742554,
+        "bbox_xyxy": [
+          680.0625,
+          171.29420471191406,
+          733.6714477539062,
+          196.2472686767578
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.585286021232605,
+        "bbox_xyxy": [
+          411.8233337402344,
+          364.216552734375,
+          441.39398193359375,
+          390.3064880371094
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 60,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 60,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0005_c0005",
+      "row": 5,
+      "col": 5,
+      "tile_bounds_xyxy": [
+        5120,
+        5120,
+        6144,
+        6144
+      ],
+      "mine_present": true,
+      "mine_count": 1,
+      "boxes": [
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            530.2843321618348,
+            1.062802445600937,
+            577.5764688598811,
+            42.72492287007026
+          ]
+        }
+      ]
+    },
+    "true_mine_count": 1,
+    "true_mine_present": true,
+    "num_detections": 4,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.7639358043670654,
+        "bbox_xyxy": [
+          581.25048828125,
+          925.7501831054688,
+          638.78466796875,
+          952.5632934570312
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5817409157752991,
+        "bbox_xyxy": [
+          216.67312622070312,
+          48.697364807128906,
+          271.72332763671875,
+          72.8747787475586
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5714085102081299,
+        "bbox_xyxy": [
+          363.5670471191406,
+          805.0119018554688,
+          415.5266418457031,
+          828.7005615234375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5410370826721191,
+        "bbox_xyxy": [
+          582.12158203125,
+          731.5951538085938,
+          636.6897583007812,
+          758.7158813476562
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 61,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 61,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0005_c0006",
+      "row": 5,
+      "col": 6,
+      "tile_bounds_xyxy": [
+        6144,
+        5120,
+        7168,
+        6144
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.757937490940094,
+        "bbox_xyxy": [
+          296.0578308105469,
+          365.0648498535156,
+          343.94378662109375,
+          391.87115478515625
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 62,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 62,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0005_c0007",
+      "row": 5,
+      "col": 7,
+      "tile_bounds_xyxy": [
+        7168,
+        5120,
+        8192,
+        6144
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 7,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.5650757551193237,
+        "bbox_xyxy": [
+          142.6584930419922,
+          243.17185974121094,
+          198.4938201904297,
+          269.305419921875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.4338238835334778,
+        "bbox_xyxy": [
+          973.8499755859375,
+          317.2432861328125,
+          1001.8682250976562,
+          341.286865234375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.4070338308811188,
+        "bbox_xyxy": [
+          824.6687622070312,
+          485.4139099121094,
+          855.8164672851562,
+          536.82080078125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.4007382392883301,
+        "bbox_xyxy": [
+          973.7123413085938,
+          316.12432861328125,
+          1001.2809448242188,
+          341.2209777832031
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3890244662761688,
+        "bbox_xyxy": [
+          143.73135375976562,
+          243.43862915039062,
+          197.38157653808594,
+          269.0313720703125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.29180005192756653,
+        "bbox_xyxy": [
+          458.92474365234375,
+          293.2674560546875,
+          489.54327392578125,
+          316.8592224121094
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.2701508402824402,
+        "bbox_xyxy": [
+          827.021484375,
+          731.483154296875,
+          854.0428466796875,
+          756.9088745117188
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 63,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 63,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0005_c0008",
+      "row": 5,
+      "col": 8,
+      "tile_bounds_xyxy": [
+        8192,
+        5120,
+        9216,
+        6144
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 3,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.8422738909721375,
+        "bbox_xyxy": [
+          189.75047302246094,
+          876.166015625,
+          220.5441436767578,
+          926.9902954101562
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.6111445426940918,
+        "bbox_xyxy": [
+          779.1780395507812,
+          390.19268798828125,
+          804.9076538085938,
+          414.07183837890625
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3757723569869995,
+        "bbox_xyxy": [
+          290.13824462890625,
+          244.15223693847656,
+          319.17041015625,
+          269.2274475097656
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 64,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 64,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0005_c0009",
+      "row": 5,
+      "col": 9,
+      "tile_bounds_xyxy": [
+        9216,
+        5120,
+        10240,
+        6144
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.41336098313331604,
+        "bbox_xyxy": [
+          143.7579803466797,
+          951.4803466796875,
+          188.78750610351562,
+          976.617919921875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3826168477535248,
+        "bbox_xyxy": [
+          144.3409423828125,
+          951.5087890625,
+          195.17388916015625,
+          976.7284545898438
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 65,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 65,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0005_c0010",
+      "row": 5,
+      "col": 10,
+      "tile_bounds_xyxy": [
+        10240,
+        5120,
+        11264,
+        6144
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 66,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 66,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0006_c0000",
+      "row": 6,
+      "col": 0,
+      "tile_bounds_xyxy": [
+        0,
+        6144,
+        1024,
+        7168
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 67,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 67,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0006_c0001",
+      "row": 6,
+      "col": 1,
+      "tile_bounds_xyxy": [
+        1024,
+        6144,
+        2048,
+        7168
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 5,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.8147913217544556,
+        "bbox_xyxy": [
+          777.7149658203125,
+          585.4173583984375,
+          830.3645629882812,
+          610.3504028320312
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.6903778910636902,
+        "bbox_xyxy": [
+          681.7702026367188,
+          365.3810729980469,
+          732.8631591796875,
+          389.9662170410156
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.48838987946510315,
+        "bbox_xyxy": [
+          389.8724365234375,
+          171.679443359375,
+          441.1846923828125,
+          195.8943328857422
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.4534461498260498,
+        "bbox_xyxy": [
+          26.090652465820312,
+          683.4832763671875,
+          73.48155212402344,
+          707.8831176757812
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.34674930572509766,
+        "bbox_xyxy": [
+          45.07935333251953,
+          701.774658203125,
+          75.48163604736328,
+          731.5347290039062
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 68,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 68,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0006_c0002",
+      "row": 6,
+      "col": 2,
+      "tile_bounds_xyxy": [
+        2048,
+        6144,
+        3072,
+        7168
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 6,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.6840025782585144,
+        "bbox_xyxy": [
+          248.8377685546875,
+          877.2476806640625,
+          294.8584289550781,
+          903.3809204101562
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5973730683326721,
+        "bbox_xyxy": [
+          23.765552520751953,
+          219.6101837158203,
+          73.60551452636719,
+          245.25161743164062
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3591978847980499,
+        "bbox_xyxy": [
+          242.1923828125,
+          877.7400512695312,
+          293.3219909667969,
+          903.1112060546875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3556767702102661,
+        "bbox_xyxy": [
+          607.6094970703125,
+          585.1739501953125,
+          635.1909790039062,
+          609.2772827148438
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3179490268230438,
+        "bbox_xyxy": [
+          337.92486572265625,
+          389.3465881347656,
+          392.2290954589844,
+          415.03753662109375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.2631731629371643,
+        "bbox_xyxy": [
+          21.17502212524414,
+          219.72451782226562,
+          70.2660903930664,
+          245.28347778320312
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 69,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 69,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0006_c0003",
+      "row": 6,
+      "col": 3,
+      "tile_bounds_xyxy": [
+        3072,
+        6144,
+        4096,
+        7168
+      ],
+      "mine_present": true,
+      "mine_count": 1,
+      "boxes": [
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            753.0330562681852,
+            734.7538830563262,
+            786.8131539096471,
+            785.4240295185191
+          ]
+        }
+      ]
+    },
+    "true_mine_count": 1,
+    "true_mine_present": true,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.5415139198303223,
+        "bbox_xyxy": [
+          752.6198120117188,
+          729.8280639648438,
+          783.0333251953125,
+          782.2505493164062
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.25968021154403687,
+        "bbox_xyxy": [
+          72.49376678466797,
+          606.3489990234375,
+          98.7947006225586,
+          659.8258666992188
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 70,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 70,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0006_c0004",
+      "row": 6,
+      "col": 4,
+      "tile_bounds_xyxy": [
+        4096,
+        6144,
+        5120,
+        7168
+      ],
+      "mine_present": true,
+      "mine_count": 2,
+      "boxes": [
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            530.7473736255433,
+            339.5267406512239,
+            575.7875038141592,
+            376.6848480568324
+          ]
+        },
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            767.2080571157758,
+            573.7354176320232,
+            814.5001938138239,
+            610.8935250376335
+          ]
+        }
+      ]
+    },
+    "true_mine_count": 2,
+    "true_mine_present": true,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.5825080275535583,
+        "bbox_xyxy": [
+          533.6387329101562,
+          340.5804748535156,
+          586.4735717773438,
+          366.9695739746094
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 71,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 71,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0006_c0005",
+      "row": 6,
+      "col": 5,
+      "tile_bounds_xyxy": [
+        5120,
+        6144,
+        6144,
+        7168
+      ],
+      "mine_present": true,
+      "mine_count": 1,
+      "boxes": [
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            972.8036112649843,
+            595.1294794716177,
+            1008.8357154158766,
+            637.9176031508032
+          ]
+        }
+      ]
+    },
+    "true_mine_count": 1,
+    "true_mine_present": true,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.3998267650604248,
+        "bbox_xyxy": [
+          630.7510375976562,
+          756.4098510742188,
+          661.2308959960938,
+          805.5381469726562
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.2509177625179291,
+        "bbox_xyxy": [
+          850.8648071289062,
+          951.4547119140625,
+          905.6950073242188,
+          976.9327392578125
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 72,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 72,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0006_c0006",
+      "row": 6,
+      "col": 6,
+      "tile_bounds_xyxy": [
+        6144,
+        6144,
+        7168,
+        7168
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 73,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 73,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0006_c0007",
+      "row": 6,
+      "col": 7,
+      "tile_bounds_xyxy": [
+        7168,
+        6144,
+        8192,
+        7168
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 74,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 74,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0006_c0008",
+      "row": 6,
+      "col": 8,
+      "tile_bounds_xyxy": [
+        8192,
+        6144,
+        9216,
+        7168
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 3,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.56582111120224,
+        "bbox_xyxy": [
+          895.8411865234375,
+          562.0634765625,
+          955.3983154296875,
+          584.047119140625
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.28815925121307373,
+        "bbox_xyxy": [
+          0.0,
+          0.0,
+          27.900638580322266,
+          25.149688720703125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.25512173771858215,
+        "bbox_xyxy": [
+          486.5023193359375,
+          365.59197998046875,
+          512.9146118164062,
+          390.3975830078125
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 75,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 75,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0006_c0009",
+      "row": 6,
+      "col": 9,
+      "tile_bounds_xyxy": [
+        9216,
+        6144,
+        10240,
+        7168
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 76,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 76,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0006_c0010",
+      "row": 6,
+      "col": 10,
+      "tile_bounds_xyxy": [
+        10240,
+        6144,
+        11264,
+        7168
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 77,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 77,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0007_c0000",
+      "row": 7,
+      "col": 0,
+      "tile_bounds_xyxy": [
+        0,
+        7168,
+        1024,
+        8192
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 78,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 78,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0007_c0001",
+      "row": 7,
+      "col": 1,
+      "tile_bounds_xyxy": [
+        1024,
+        7168,
+        2048,
+        8192
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.5280930995941162,
+        "bbox_xyxy": [
+          0.0,
+          364.83685302734375,
+          25.937362670898438,
+          391.216552734375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.36939725279808044,
+        "bbox_xyxy": [
+          0.0,
+          383.5442199707031,
+          26.09937286376953,
+          416.0423278808594
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 79,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 79,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0007_c0002",
+      "row": 7,
+      "col": 2,
+      "tile_bounds_xyxy": [
+        2048,
+        7168,
+        3072,
+        8192
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 5,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.6854068636894226,
+        "bbox_xyxy": [
+          92.75218200683594,
+          220.38148498535156,
+          123.7734375,
+          244.16958618164062
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.584075391292572,
+        "bbox_xyxy": [
+          534.61474609375,
+          634.0203247070312,
+          587.9886474609375,
+          658.219482421875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5301415324211121,
+        "bbox_xyxy": [
+          534.0003662109375,
+          634.1102294921875,
+          582.1005859375,
+          657.7582397460938
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.48624300956726074,
+        "bbox_xyxy": [
+          559.482421875,
+          634.3845825195312,
+          613.266357421875,
+          658.8173217773438
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3856697082519531,
+        "bbox_xyxy": [
+          800.2137451171875,
+          898.572509765625,
+          830.9912719726562,
+          954.6106567382812
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 80,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 80,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0007_c0003",
+      "row": 7,
+      "col": 3,
+      "tile_bounds_xyxy": [
+        3072,
+        7168,
+        4096,
+        8192
+      ],
+      "mine_present": true,
+      "mine_count": 1,
+      "boxes": [
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            777.8051278719236,
+            751.1808904133504,
+            827.3492710794003,
+            787.212994564241
+          ]
+        }
+      ]
+    },
+    "true_mine_count": 1,
+    "true_mine_present": true,
+    "num_detections": 5,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.8906097412109375,
+        "bbox_xyxy": [
+          95.71569061279297,
+          438.5179443359375,
+          148.71792602539062,
+          465.1324768066406
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.8805930614471436,
+        "bbox_xyxy": [
+          557.4494018554688,
+          536.843994140625,
+          613.2008056640625,
+          561.3822021484375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.8010997772216797,
+        "bbox_xyxy": [
+          557.05908203125,
+          559.739013671875,
+          612.9928588867188,
+          584.9930419921875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.47614315152168274,
+        "bbox_xyxy": [
+          778.178955078125,
+          755.988525390625,
+          830.057373046875,
+          780.806884765625
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3863454759120941,
+        "bbox_xyxy": [
+          68.1087646484375,
+          460.99749755859375,
+          124.28504943847656,
+          489.4261779785156
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 81,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 81,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0007_c0004",
+      "row": 7,
+      "col": 4,
+      "tile_bounds_xyxy": [
+        4096,
+        7168,
+        5120,
+        8192
+      ],
+      "mine_present": true,
+      "mine_count": 3,
+      "boxes": [
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            750.3180082950448,
+            375.0958033384077,
+            796.4841417383768,
+            410.0019042345857
+          ]
+        },
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            138.89824098458757,
+            671.2346593285574,
+            174.9303451354799,
+            727.5348220643273
+          ]
+        },
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            510.47931504066673,
+            790.5910043283875,
+            540.8814029179821,
+            844.6391605547269
+          ]
+        }
+      ]
+    },
+    "true_mine_count": 3,
+    "true_mine_present": true,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.4761578440666199,
+        "bbox_xyxy": [
+          510.8227233886719,
+          805.1411743164062,
+          538.2298583984375,
+          829.4224243164062
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.4135214388370514,
+        "bbox_xyxy": [
+          144.3511199951172,
+          683.92333984375,
+          172.3966827392578,
+          707.8546142578125
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 82,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 82,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0007_c0005",
+      "row": 7,
+      "col": 5,
+      "tile_bounds_xyxy": [
+        5120,
+        7168,
+        6144,
+        8192
+      ],
+      "mine_present": true,
+      "mine_count": 2,
+      "boxes": [
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            201.49138178494013,
+            360.45776102710806,
+            240.90149569997902,
+            408.8759009798705
+          ]
+        },
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            -2.315207318546527,
+            786.0869913095275,
+            35.96890334177806,
+            833.3791280075739
+          ]
+        }
+      ]
+    },
+    "true_mine_count": 2,
+    "true_mine_present": true,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.3869110643863678,
+        "bbox_xyxy": [
+          951.9037475585938,
+          756.2855834960938,
+          1001.5491943359375,
+          782.0895385742188
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 83,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 83,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0007_c0006",
+      "row": 7,
+      "col": 6,
+      "tile_bounds_xyxy": [
+        6144,
+        7168,
+        7168,
+        8192
+      ],
+      "mine_present": true,
+      "mine_count": 1,
+      "boxes": [
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            451.0010628680466,
+            702.7627504605871,
+            497.1671963113786,
+            744.4248708850564
+          ]
+        }
+      ]
+    },
+    "true_mine_count": 1,
+    "true_mine_present": true,
+    "num_detections": 3,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.5099324584007263,
+        "bbox_xyxy": [
+          996.75537109375,
+          828.1178588867188,
+          1024.0,
+          852.7465209960938
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.35602879524230957,
+        "bbox_xyxy": [
+          0.010146141052246094,
+          756.387451171875,
+          26.694747924804688,
+          781.2550048828125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.32107123732566833,
+        "bbox_xyxy": [
+          0.0,
+          778.10693359375,
+          26.6015625,
+          806.0686645507812
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 84,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 84,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0007_c0007",
+      "row": 7,
+      "col": 7,
+      "tile_bounds_xyxy": [
+        7168,
+        7168,
+        8192,
+        8192
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.8335833549499512,
+        "bbox_xyxy": [
+          728.1525268554688,
+          439.26898193359375,
+          782.4964599609375,
+          464.2066345214844
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5902755856513977,
+        "bbox_xyxy": [
+          364.27435302734375,
+          585.4003295898438,
+          416.32861328125,
+          610.4863891601562
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 85,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 85,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0007_c0008",
+      "row": 7,
+      "col": 8,
+      "tile_bounds_xyxy": [
+        8192,
+        7168,
+        9216,
+        8192
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 86,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 86,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0007_c0009",
+      "row": 7,
+      "col": 9,
+      "tile_bounds_xyxy": [
+        9216,
+        7168,
+        10240,
+        8192
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 87,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 87,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0007_c0010",
+      "row": 7,
+      "col": 10,
+      "tile_bounds_xyxy": [
+        10240,
+        7168,
+        11264,
+        8192
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 88,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 88,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0008_c0000",
+      "row": 8,
+      "col": 0,
+      "tile_bounds_xyxy": [
+        0,
+        8192,
+        1024,
+        9216
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.8390071392059326,
+        "bbox_xyxy": [
+          682.3724975585938,
+          25.491058349609375,
+          732.114501953125,
+          48.455345153808594
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.7986515760421753,
+        "bbox_xyxy": [
+          703.5448608398438,
+          462.72650146484375,
+          758.3570556640625,
+          488.8922424316406
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 89,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 89,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0008_c0001",
+      "row": 8,
+      "col": 1,
+      "tile_bounds_xyxy": [
+        1024,
+        8192,
+        2048,
+        9216
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 8,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.7264968156814575,
+        "bbox_xyxy": [
+          728.2284545898438,
+          21.467891693115234,
+          758.0578002929688,
+          75.1553726196289
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.6500763893127441,
+        "bbox_xyxy": [
+          510.56982421875,
+          145.39891052246094,
+          564.0352783203125,
+          172.54855346679688
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.6294821500778198,
+        "bbox_xyxy": [
+          459.9997863769531,
+          901.1285400390625,
+          510.60101318359375,
+          926.9503784179688
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.6114269495010376,
+        "bbox_xyxy": [
+          463.0419921875,
+          900.9879760742188,
+          513.656494140625,
+          927.1471557617188
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.45326295495033264,
+        "bbox_xyxy": [
+          69.7825927734375,
+          731.4166259765625,
+          100.70223236083984,
+          782.0133056640625
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.424990713596344,
+        "bbox_xyxy": [
+          315.31756591796875,
+          924.9762573242188,
+          341.9611511230469,
+          952.02880859375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.36685311794281006,
+        "bbox_xyxy": [
+          803.7838134765625,
+          389.0347900390625,
+          829.8853149414062,
+          414.8827819824219
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.2842699885368347,
+        "bbox_xyxy": [
+          484.56573486328125,
+          877.8283081054688,
+          514.5894775390625,
+          900.2672729492188
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 90,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 90,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0008_c0002",
+      "row": 8,
+      "col": 2,
+      "tile_bounds_xyxy": [
+        2048,
+        8192,
+        3072,
+        9216
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 91,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 91,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0008_c0003",
+      "row": 8,
+      "col": 3,
+      "tile_bounds_xyxy": [
+        3072,
+        8192,
+        4096,
+        9216
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.5588859915733337,
+        "bbox_xyxy": [
+          314.7642822265625,
+          488.9105224609375,
+          368.5436096191406,
+          512.935302734375
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 92,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 92,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0008_c0004",
+      "row": 8,
+      "col": 4,
+      "tile_bounds_xyxy": [
+        4096,
+        8192,
+        5120,
+        9216
+      ],
+      "mine_present": true,
+      "mine_count": 1,
+      "boxes": [
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            676.0017934838279,
+            450.07497994063124,
+            716.5379106535829,
+            496.2411133839614
+          ]
+        }
+      ]
+    },
+    "true_mine_count": 1,
+    "true_mine_present": true,
+    "num_detections": 9,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.8382190465927124,
+        "bbox_xyxy": [
+          265.1719970703125,
+          487.60760498046875,
+          318.69207763671875,
+          513.0574951171875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.7744969129562378,
+        "bbox_xyxy": [
+          266.80908203125,
+          462.1641540527344,
+          317.5072326660156,
+          489.48504638671875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.7344467043876648,
+        "bbox_xyxy": [
+          776.8845825195312,
+          488.1136779785156,
+          831.4219970703125,
+          512.8519287109375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.7223321199417114,
+        "bbox_xyxy": [
+          680.5640258789062,
+          461.5621032714844,
+          709.0695190429688,
+          489.0611877441406
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.7021657824516296,
+        "bbox_xyxy": [
+          777.6011962890625,
+          462.5610046386719,
+          829.1412353515625,
+          489.7840576171875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5261646509170532,
+        "bbox_xyxy": [
+          815.5478515625,
+          462.331298828125,
+          854.5450439453125,
+          489.7705383300781
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.48690682649612427,
+        "bbox_xyxy": [
+          631.3406982421875,
+          366.9659729003906,
+          660.4400634765625,
+          415.25518798828125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3200494647026062,
+        "bbox_xyxy": [
+          632.8106079101562,
+          364.91143798828125,
+          658.9713134765625,
+          390.56005859375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.31110209226608276,
+        "bbox_xyxy": [
+          632.8627319335938,
+          366.133544921875,
+          659.4122924804688,
+          389.680908203125
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 93,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 93,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0008_c0005",
+      "row": 8,
+      "col": 5,
+      "tile_bounds_xyxy": [
+        5120,
+        8192,
+        6144,
+        9216
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.26406875252723694,
+        "bbox_xyxy": [
+          703.9158325195312,
+          974.1383056640625,
+          733.002685546875,
+          1001.0182495117188
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 94,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 94,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0008_c0006",
+      "row": 8,
+      "col": 6,
+      "tile_bounds_xyxy": [
+        6144,
+        8192,
+        7168,
+        9216
+      ],
+      "mine_present": true,
+      "mine_count": 1,
+      "boxes": [
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            492.6631832925168,
+            640.3695299875308,
+            538.829316735847,
+            678.6536406478535
+          ]
+        }
+      ]
+    },
+    "true_mine_count": 1,
+    "true_mine_present": true,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.6482425928115845,
+        "bbox_xyxy": [
+          91.67411804199219,
+          637.5881958007812,
+          149.82659912109375,
+          685.588134765625
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 95,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 95,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0008_c0007",
+      "row": 8,
+      "col": 7,
+      "tile_bounds_xyxy": [
+        7168,
+        8192,
+        8192,
+        9216
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.4470818340778351,
+        "bbox_xyxy": [
+          362.62548828125,
+          974.76513671875,
+          390.71282958984375,
+          1000.9529418945312
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 96,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 96,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0008_c0008",
+      "row": 8,
+      "col": 8,
+      "tile_bounds_xyxy": [
+        8192,
+        8192,
+        9216,
+        9216
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 97,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 97,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0008_c0009",
+      "row": 8,
+      "col": 9,
+      "tile_bounds_xyxy": [
+        9216,
+        8192,
+        10240,
+        9216
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 98,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 98,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0008_c0010",
+      "row": 8,
+      "col": 10,
+      "tile_bounds_xyxy": [
+        10240,
+        8192,
+        11264,
+        9216
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 99,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 99,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0009_c0000",
+      "row": 9,
+      "col": 0,
+      "tile_bounds_xyxy": [
+        0,
+        9216,
+        1024,
+        10240
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.7024131417274475,
+        "bbox_xyxy": [
+          601.6475830078125,
+          362.94219970703125,
+          635.8562622070312,
+          415.1711730957031
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 100,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 100,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0009_c0001",
+      "row": 9,
+      "col": 1,
+      "tile_bounds_xyxy": [
+        1024,
+        9216,
+        2048,
+        10240
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.7199159264564514,
+        "bbox_xyxy": [
+          825.2484130859375,
+          947.0833740234375,
+          854.1511840820312,
+          1002.5079956054688
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5184348821640015,
+        "bbox_xyxy": [
+          824.4334716796875,
+          170.75286865234375,
+          855.0607299804688,
+          221.6446533203125
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 101,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 101,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0009_c0002",
+      "row": 9,
+      "col": 2,
+      "tile_bounds_xyxy": [
+        2048,
+        9216,
+        3072,
+        10240
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 3,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.6573356986045837,
+        "bbox_xyxy": [
+          973.4658813476562,
+          974.60205078125,
+          1024.0,
+          1002.0361938476562
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.568329930305481,
+        "bbox_xyxy": [
+          680.2294921875,
+          804.2772216796875,
+          708.3976440429688,
+          829.005859375
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3224608898162842,
+        "bbox_xyxy": [
+          972.1835327148438,
+          974.9592895507812,
+          1022.2391967773438,
+          1001.1383666992188
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 102,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 102,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0009_c0003",
+      "row": 9,
+      "col": 3,
+      "tile_bounds_xyxy": [
+        3072,
+        9216,
+        4096,
+        10240
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 103,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 103,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0009_c0004",
+      "row": 9,
+      "col": 4,
+      "tile_bounds_xyxy": [
+        4096,
+        9216,
+        5120,
+        10240
+      ],
+      "mine_present": true,
+      "mine_count": 1,
+      "boxes": [
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            21.793902494186113,
+            -4.167373173380838,
+            79.22006848467208,
+            29.61272446808107
+          ]
+        }
+      ]
+    },
+    "true_mine_count": 1,
+    "true_mine_present": true,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 104,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 104,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0009_c0005",
+      "row": 9,
+      "col": 5,
+      "tile_bounds_xyxy": [
+        5120,
+        9216,
+        6144,
+        10240
+      ],
+      "mine_present": true,
+      "mine_count": 3,
+      "boxes": [
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            641.7586543786583,
+            127.57500762832206,
+            691.3027975861351,
+            161.35510526978396
+          ]
+        },
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            -7.9452235921235115,
+            343.76763253367426,
+            29.21288381348495,
+            396.68978550529755
+          ]
+        },
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            954.7875591895381,
+            771.6488693255251,
+            1003.2056991422987,
+            805.4289669669834
+          ]
+        }
+      ]
+    },
+    "true_mine_count": 3,
+    "true_mine_present": true,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.2955687344074249,
+        "bbox_xyxy": [
+          0.0,
+          363.7436218261719,
+          26.117403030395508,
+          391.4114990234375
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 105,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 105,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0009_c0006",
+      "row": 9,
+      "col": 6,
+      "tile_bounds_xyxy": [
+        6144,
+        9216,
+        7168,
+        10240
+      ],
+      "mine_present": true,
+      "mine_count": 1,
+      "boxes": [
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            898.0243549900579,
+            877.4931752687698,
+            937.4344689050968,
+            923.6593087121
+          ]
+        }
+      ]
+    },
+    "true_mine_count": 1,
+    "true_mine_present": true,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 106,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 106,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0009_c0007",
+      "row": 9,
+      "col": 7,
+      "tile_bounds_xyxy": [
+        7168,
+        9216,
+        8192,
+        10240
+      ],
+      "mine_present": true,
+      "mine_count": 1,
+      "boxes": [
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            31.66481065021071,
+            348.27164555253694,
+            77.83094409354453,
+            386.5557562128597
+          ]
+        }
+      ]
+    },
+    "true_mine_count": 1,
+    "true_mine_present": true,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.37921321392059326,
+        "bbox_xyxy": [
+          535.5142822265625,
+          340.84515380859375,
+          585.4041748046875,
+          368.078369140625
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.2912653386592865,
+        "bbox_xyxy": [
+          412.6976318359375,
+          804.06103515625,
+          440.8169860839844,
+          829.3616943359375
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 107,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 107,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0009_c0008",
+      "row": 9,
+      "col": 8,
+      "tile_bounds_xyxy": [
+        8192,
+        9216,
+        9216,
+        10240
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.5238223075866699,
+        "bbox_xyxy": [
+          39.8960075378418,
+          682.52197265625,
+          74.90845489501953,
+          734.7138061523438
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.2911089360713959,
+        "bbox_xyxy": [
+          534.1287231445312,
+          708.1715698242188,
+          562.026611328125,
+          732.0418701171875
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 108,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 108,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0009_c0009",
+      "row": 9,
+      "col": 9,
+      "tile_bounds_xyxy": [
+        9216,
+        9216,
+        10240,
+        10240
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 109,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 109,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0009_c0010",
+      "row": 9,
+      "col": 10,
+      "tile_bounds_xyxy": [
+        10240,
+        9216,
+        11264,
+        10240
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 110,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 110,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0010_c0000",
+      "row": 10,
+      "col": 0,
+      "tile_bounds_xyxy": [
+        0,
+        10240,
+        1024,
+        11264
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 3,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.7959930896759033,
+        "bbox_xyxy": [
+          778.7609252929688,
+          512.4830932617188,
+          830.710693359375,
+          536.4977416992188
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.7252517342567444,
+        "bbox_xyxy": [
+          778.2578735351562,
+          537.785400390625,
+          829.65966796875,
+          560.981689453125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.36156219244003296,
+        "bbox_xyxy": [
+          801.6343383789062,
+          488.7542724609375,
+          854.665771484375,
+          512.3934326171875
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 111,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 111,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0010_c0001",
+      "row": 10,
+      "col": 1,
+      "tile_bounds_xyxy": [
+        1024,
+        10240,
+        2048,
+        11264
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 112,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 112,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0010_c0002",
+      "row": 10,
+      "col": 2,
+      "tile_bounds_xyxy": [
+        2048,
+        10240,
+        3072,
+        11264
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 113,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 113,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0010_c0003",
+      "row": 10,
+      "col": 3,
+      "tile_bounds_xyxy": [
+        3072,
+        10240,
+        4096,
+        11264
+      ],
+      "mine_present": true,
+      "mine_count": 1,
+      "boxes": [
+        {
+          "class_id": 0,
+          "bbox_xyxy": [
+            969.2256811735406,
+            61.80377739112009,
+            1022.147834145163,
+            96.7098782872963
+          ]
+        }
+      ]
+    },
+    "true_mine_count": 1,
+    "true_mine_present": true,
+    "num_detections": 3,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.8518840670585632,
+        "bbox_xyxy": [
+          313.4881286621094,
+          413.7560729980469,
+          368.43365478515625,
+          440.2273864746094
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.496460884809494,
+        "bbox_xyxy": [
+          849.3863525390625,
+          389.6125793457031,
+          902.9747314453125,
+          415.431640625
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.4019385278224945,
+        "bbox_xyxy": [
+          301.2900695800781,
+          925.1840209960938,
+          342.76116943359375,
+          952.5716552734375
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 114,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 114,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0010_c0004",
+      "row": 10,
+      "col": 4,
+      "tile_bounds_xyxy": [
+        4096,
+        10240,
+        5120,
+        11264
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.35672080516815186,
+        "bbox_xyxy": [
+          94.32950592041016,
+          852.6343383789062,
+          141.96612548828125,
+          879.5908203125
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 115,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 115,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0010_c0005",
+      "row": 10,
+      "col": 5,
+      "tile_bounds_xyxy": [
+        5120,
+        10240,
+        6144,
+        11264
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.3768956959247589,
+        "bbox_xyxy": [
+          558.4692993164062,
+          718.2132568359375,
+          586.949462890625,
+          758.0938720703125
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 116,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 116,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0010_c0006",
+      "row": 10,
+      "col": 6,
+      "tile_bounds_xyxy": [
+        6144,
+        10240,
+        7168,
+        11264
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.6277209520339966,
+        "bbox_xyxy": [
+          679.9434814453125,
+          146.2906494140625,
+          735.9415283203125,
+          172.13134765625
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 117,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 117,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0010_c0007",
+      "row": 10,
+      "col": 7,
+      "tile_bounds_xyxy": [
+        7168,
+        10240,
+        8192,
+        11264
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 118,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 118,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0010_c0008",
+      "row": 10,
+      "col": 8,
+      "tile_bounds_xyxy": [
+        8192,
+        10240,
+        9216,
+        11264
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.26271194219589233,
+        "bbox_xyxy": [
+          706.2740478515625,
+          440.049560546875,
+          731.6900634765625,
+          462.828857421875
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 119,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 119,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0010_c0009",
+      "row": 10,
+      "col": 9,
+      "tile_bounds_xyxy": [
+        9216,
+        10240,
+        10240,
+        11264
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 120,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 120,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0010_c0010",
+      "row": 10,
+      "col": 10,
+      "tile_bounds_xyxy": [
+        10240,
+        10240,
+        11264,
+        11264
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 121,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 121,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0011_c0000",
+      "row": 11,
+      "col": 0,
+      "tile_bounds_xyxy": [
+        0,
+        11264,
+        1024,
+        12288
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.5680347084999084,
+        "bbox_xyxy": [
+          875.0983276367188,
+          706.6461791992188,
+          926.086669921875,
+          731.732421875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.4155174195766449,
+        "bbox_xyxy": [
+          607.7503662109375,
+          585.2703857421875,
+          659.5715942382812,
+          610.2776489257812
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 122,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 122,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0011_c0001",
+      "row": 11,
+      "col": 1,
+      "tile_bounds_xyxy": [
+        1024,
+        11264,
+        2048,
+        12288
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 4,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.8255811333656311,
+        "bbox_xyxy": [
+          778.1771850585938,
+          950.714111328125,
+          829.5289306640625,
+          976.81201171875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.37840336561203003,
+        "bbox_xyxy": [
+          533.2314453125,
+          195.48126220703125,
+          587.9263305664062,
+          220.6772918701172
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3521574139595032,
+        "bbox_xyxy": [
+          786.4263305664062,
+          973.9607543945312,
+          831.7894287109375,
+          1000.6497192382812
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3015112578868866,
+        "bbox_xyxy": [
+          777.41455078125,
+          974.3706665039062,
+          831.0748291015625,
+          1000.430419921875
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 123,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 123,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0011_c0002",
+      "row": 11,
+      "col": 2,
+      "tile_bounds_xyxy": [
+        2048,
+        11264,
+        3072,
+        12288
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 4,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.7208063006401062,
+        "bbox_xyxy": [
+          902.5084838867188,
+          340.43768310546875,
+          953.329345703125,
+          367.1475830078125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.5884058475494385,
+        "bbox_xyxy": [
+          825.4783935546875,
+          828.1185913085938,
+          879.2929077148438,
+          853.0156860351562
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.4061087369918823,
+        "bbox_xyxy": [
+          677.6414794921875,
+          413.2806701660156,
+          709.0689697265625,
+          439.8058776855469
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.2964954078197479,
+        "bbox_xyxy": [
+          678.5776977539062,
+          412.80108642578125,
+          709.0202026367188,
+          439.98529052734375
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 124,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 124,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0011_c0003",
+      "row": 11,
+      "col": 3,
+      "tile_bounds_xyxy": [
+        3072,
+        11264,
+        4096,
+        12288
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 3,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.3873824179172516,
+        "bbox_xyxy": [
+          46.18608856201172,
+          73.49408721923828,
+          100.97810363769531,
+          98.18235778808594
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.37795737385749817,
+        "bbox_xyxy": [
+          266.5780944824219,
+          585.23046875,
+          317.17852783203125,
+          609.70751953125
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3023255467414856,
+        "bbox_xyxy": [
+          147.38427734375,
+          729.0042114257812,
+          199.89788818359375,
+          782.234375
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 125,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 125,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0011_c0004",
+      "row": 11,
+      "col": 4,
+      "tile_bounds_xyxy": [
+        4096,
+        11264,
+        5120,
+        12288
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.6334347724914551,
+        "bbox_xyxy": [
+          632.285888671875,
+          902.5927124023438,
+          684.7969360351562,
+          927.813232421875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.4365643262863159,
+        "bbox_xyxy": [
+          631.76806640625,
+          902.0157470703125,
+          671.9382934570312,
+          927.210205078125
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 126,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 126,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0011_c0005",
+      "row": 11,
+      "col": 5,
+      "tile_bounds_xyxy": [
+        5120,
+        11264,
+        6144,
+        12288
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 127,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 127,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0011_c0006",
+      "row": 11,
+      "col": 6,
+      "tile_bounds_xyxy": [
+        6144,
+        11264,
+        7168,
+        12288
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 128,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 128,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0011_c0007",
+      "row": 11,
+      "col": 7,
+      "tile_bounds_xyxy": [
+        7168,
+        11264,
+        8192,
+        12288
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.5770983695983887,
+        "bbox_xyxy": [
+          924.8056640625,
+          657.9531860351562,
+          976.536865234375,
+          684.4549560546875
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3028924763202667,
+        "bbox_xyxy": [
+          534.8117065429688,
+          489.0603332519531,
+          586.5904541015625,
+          513.2427368164062
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 129,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 129,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0011_c0008",
+      "row": 11,
+      "col": 8,
+      "tile_bounds_xyxy": [
+        8192,
+        11264,
+        9216,
+        12288
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.28810080885887146,
+        "bbox_xyxy": [
+          438.03509521484375,
+          293.1399841308594,
+          464.6563720703125,
+          317.7568054199219
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 130,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 130,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0011_c0009",
+      "row": 11,
+      "col": 9,
+      "tile_bounds_xyxy": [
+        9216,
+        11264,
+        10240,
+        12288
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 131,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 131,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0011_c0010",
+      "row": 11,
+      "col": 10,
+      "tile_bounds_xyxy": [
+        10240,
+        11264,
+        11264,
+        12288
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 132,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 132,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0012_c0000",
+      "row": 12,
+      "col": 0,
+      "tile_bounds_xyxy": [
+        0,
+        12288,
+        1024,
+        13312
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 133,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 133,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0012_c0001",
+      "row": 12,
+      "col": 1,
+      "tile_bounds_xyxy": [
+        1024,
+        12288,
+        2048,
+        13312
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.4225529730319977,
+        "bbox_xyxy": [
+          775.8593139648438,
+          48.74778747558594,
+          830.6060180664062,
+          73.04711151123047
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.35942864418029785,
+        "bbox_xyxy": [
+          703.6411743164062,
+          171.45758056640625,
+          733.7756958007812,
+          195.51808166503906
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 134,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 134,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0012_c0002",
+      "row": 12,
+      "col": 2,
+      "tile_bounds_xyxy": [
+        2048,
+        12288,
+        3072,
+        13312
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 4,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.5855467915534973,
+        "bbox_xyxy": [
+          603.3967895507812,
+          127.01087188720703,
+          664.5101928710938,
+          173.2982940673828
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.4016822278499603,
+        "bbox_xyxy": [
+          607.7922973632812,
+          121.99571228027344,
+          659.6524658203125,
+          147.01292419433594
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.36156341433525085,
+        "bbox_xyxy": [
+          190.31494140625,
+          389.4819030761719,
+          245.79183959960938,
+          415.7288513183594
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.25076425075531006,
+        "bbox_xyxy": [
+          361.7541198730469,
+          104.2240219116211,
+          417.9555358886719,
+          147.5646514892578
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 135,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 135,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0012_c0003",
+      "row": 12,
+      "col": 3,
+      "tile_bounds_xyxy": [
+        3072,
+        12288,
+        4096,
+        13312
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 136,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 136,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0012_c0004",
+      "row": 12,
+      "col": 4,
+      "tile_bounds_xyxy": [
+        4096,
+        12288,
+        5120,
+        13312
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.4125489294528961,
+        "bbox_xyxy": [
+          656.2976684570312,
+          780.16650390625,
+          684.2324829101562,
+          804.9367065429688
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 137,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 137,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0012_c0005",
+      "row": 12,
+      "col": 5,
+      "tile_bounds_xyxy": [
+        5120,
+        12288,
+        6144,
+        13312
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 1,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.41039758920669556,
+        "bbox_xyxy": [
+          998.0405883789062,
+          461.85198974609375,
+          1024.0,
+          488.9104309082031
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 138,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 138,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0012_c0006",
+      "row": 12,
+      "col": 6,
+      "tile_bounds_xyxy": [
+        6144,
+        12288,
+        7168,
+        13312
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 2,
+    "detections": [
+      {
+        "class_id": 0,
+        "confidence": 0.4577721655368805,
+        "bbox_xyxy": [
+          22.952083587646484,
+          707.4932250976562,
+          49.600284576416016,
+          729.9977416992188
+        ]
+      },
+      {
+        "class_id": 0,
+        "confidence": 0.3646464943885803,
+        "bbox_xyxy": [
+          23.065975189208984,
+          729.5359497070312,
+          50.19297790527344,
+          756.6752319335938
+        ]
+      }
+    ]
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 139,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 139,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0012_c0007",
+      "row": 12,
+      "col": 7,
+      "tile_bounds_xyxy": [
+        7168,
+        12288,
+        8192,
+        13312
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 140,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 140,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0012_c0008",
+      "row": 12,
+      "col": 8,
+      "tile_bounds_xyxy": [
+        8192,
+        12288,
+        9216,
+        13312
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 141,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 141,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0012_c0009",
+      "row": 12,
+      "col": 9,
+      "tile_bounds_xyxy": [
+        9216,
+        12288,
+        10240,
+        13312
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "drone_id": "uav_pixelate_s08_rubblefield_170_epochs_balanced_detector",
+    "tile_index": 142,
+    "model": "models/yolo26_170_epochs_balanced_detector.pt",
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "motion_blur": 0.0,
+      "snow": 0.0,
+      "pixelate": 0.8,
+      "defocus": 0.0
+    },
+    "ground_truth": {
+      "tile_index": 142,
+      "cell_id": "42432b96-Rubble_F2_RGB_r0012_c0010",
+      "row": 12,
+      "col": 10,
+      "tile_bounds_xyxy": [
+        10240,
+        12288,
+        11264,
+        13312
+      ],
+      "mine_present": false,
+      "mine_count": 0,
+      "boxes": []
+    },
+    "true_mine_count": 0,
+    "true_mine_present": false,
+    "num_detections": 0,
+    "detections": []
+  }
+]

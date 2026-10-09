@@ -1,0 +1,296 @@
+{
+  "input_files": [
+    "runs/observations/volleyballfield_drone_run_scenario/2026-06-25_13-03-30_vollyball_field_drone_scenario/predictions/uav_defocus_s05_volleyballfield_170_epochs_balanced_detector_predictions.json",
+    "runs/observations/volleyballfield_drone_run_scenario/2026-06-25_13-03-30_vollyball_field_drone_scenario/predictions/uav_gaussian_noise_s05_volleyballfield_170_epochs_balanced_detector_predictions.json",
+    "runs/observations/volleyballfield_drone_run_scenario/2026-06-25_13-03-30_vollyball_field_drone_scenario/predictions/uav_motion_blur_s00_volleyballfield_170_epochs_balanced_detector_predictions.json",
+    "runs/observations/volleyballfield_drone_run_scenario/2026-06-25_13-03-30_vollyball_field_drone_scenario/predictions/uav_pixelate_s05_volleyballfield_170_epochs_balanced_detector_predictions.json",
+    "runs/observations/volleyballfield_drone_run_scenario/2026-06-25_13-03-30_vollyball_field_drone_scenario/predictions/uav_snow_s05_volleyballfield_170_epochs_balanced_detector_predictions.json"
+  ],
+  "seed": 42,
+  "n_runs": 10,
+  "monte_carlo_averaging": true,
+  "metric_level": "instance",
+  "iou_threshold": 0.5,
+  "threshold": null,
+  "start_combinations": [
+    {
+      "uav_001__uav_defocus_s05_volleyballfield_170_epochs_balanced_detector": 81,
+      "uav_002__uav_gaussian_noise_s05_volleyballfield_170_epochs_balanced_detector": 14,
+      "uav_003__uav_motion_blur_s00_volleyballfield_170_epochs_balanced_detector": 3,
+      "uav_004__uav_pixelate_s05_volleyballfield_170_epochs_balanced_detector": 94,
+      "uav_005__uav_snow_s05_volleyballfield_170_epochs_balanced_detector": 35
+    },
+    {
+      "uav_001__uav_defocus_s05_volleyballfield_170_epochs_balanced_detector": 31,
+      "uav_002__uav_gaussian_noise_s05_volleyballfield_170_epochs_balanced_detector": 28,
+      "uav_003__uav_motion_blur_s00_volleyballfield_170_epochs_balanced_detector": 17,
+      "uav_004__uav_pixelate_s05_volleyballfield_170_epochs_balanced_detector": 94,
+      "uav_005__uav_snow_s05_volleyballfield_170_epochs_balanced_detector": 13
+    },
+    {
+      "uav_001__uav_defocus_s05_volleyballfield_170_epochs_balanced_detector": 86,
+      "uav_002__uav_gaussian_noise_s05_volleyballfield_170_epochs_balanced_detector": 94,
+      "uav_003__uav_motion_blur_s00_volleyballfield_170_epochs_balanced_detector": 69,
+      "uav_004__uav_pixelate_s05_volleyballfield_170_epochs_balanced_detector": 11,
+      "uav_005__uav_snow_s05_volleyballfield_170_epochs_balanced_detector": 75
+    },
+    {
+      "uav_001__uav_defocus_s05_volleyballfield_170_epochs_balanced_detector": 54,
+      "uav_002__uav_gaussian_noise_s05_volleyballfield_170_epochs_balanced_detector": 4,
+      "uav_003__uav_motion_blur_s00_volleyballfield_170_epochs_balanced_detector": 3,
+      "uav_004__uav_pixelate_s05_volleyballfield_170_epochs_balanced_detector": 11,
+      "uav_005__uav_snow_s05_volleyballfield_170_epochs_balanced_detector": 27
+    },
+    {
+      "uav_001__uav_defocus_s05_volleyballfield_170_epochs_balanced_detector": 29,
+      "uav_002__uav_gaussian_noise_s05_volleyballfield_170_epochs_balanced_detector": 64,
+      "uav_003__uav_motion_blur_s00_volleyballfield_170_epochs_balanced_detector": 77,
+      "uav_004__uav_pixelate_s05_volleyballfield_170_epochs_balanced_detector": 3,
+      "uav_005__uav_snow_s05_volleyballfield_170_epochs_balanced_detector": 71
+    },
+    {
+      "uav_001__uav_defocus_s05_volleyballfield_170_epochs_balanced_detector": 25,
+      "uav_002__uav_gaussian_noise_s05_volleyballfield_170_epochs_balanced_detector": 91,
+      "uav_003__uav_motion_blur_s00_volleyballfield_170_epochs_balanced_detector": 83,
+      "uav_004__uav_pixelate_s05_volleyballfield_170_epochs_balanced_detector": 89,
+      "uav_005__uav_snow_s05_volleyballfield_170_epochs_balanced_detector": 69
+    },
+    {
+      "uav_001__uav_defocus_s05_volleyballfield_170_epochs_balanced_detector": 53,
+      "uav_002__uav_gaussian_noise_s05_volleyballfield_170_epochs_balanced_detector": 28,
+      "uav_003__uav_motion_blur_s00_volleyballfield_170_epochs_balanced_detector": 57,
+      "uav_004__uav_pixelate_s05_volleyballfield_170_epochs_balanced_detector": 75,
+      "uav_005__uav_snow_s05_volleyballfield_170_epochs_balanced_detector": 35
+    },
+    {
+      "uav_001__uav_defocus_s05_volleyballfield_170_epochs_balanced_detector": 0,
+      "uav_002__uav_gaussian_noise_s05_volleyballfield_170_epochs_balanced_detector": 97,
+      "uav_003__uav_motion_blur_s00_volleyballfield_170_epochs_balanced_detector": 20,
+      "uav_004__uav_pixelate_s05_volleyballfield_170_epochs_balanced_detector": 89,
+      "uav_005__uav_snow_s05_volleyballfield_170_epochs_balanced_detector": 54
+    },
+    {
+      "uav_001__uav_defocus_s05_volleyballfield_170_epochs_balanced_detector": 43,
+      "uav_002__uav_gaussian_noise_s05_volleyballfield_170_epochs_balanced_detector": 35,
+      "uav_003__uav_motion_blur_s00_volleyballfield_170_epochs_balanced_detector": 19,
+      "uav_004__uav_pixelate_s05_volleyballfield_170_epochs_balanced_detector": 27,
+      "uav_005__uav_snow_s05_volleyballfield_170_epochs_balanced_detector": 97
+    },
+    {
+      "uav_001__uav_defocus_s05_volleyballfield_170_epochs_balanced_detector": 43,
+      "uav_002__uav_gaussian_noise_s05_volleyballfield_170_epochs_balanced_detector": 13,
+      "uav_003__uav_motion_blur_s00_volleyballfield_170_epochs_balanced_detector": 11,
+      "uav_004__uav_pixelate_s05_volleyballfield_170_epochs_balanced_detector": 48,
+      "uav_005__uav_snow_s05_volleyballfield_170_epochs_balanced_detector": 12
+    }
+  ],
+  "comparison": [
+    {
+      "algorithm": "LCP",
+      "drones": [
+        "uav_001__uav_defocus_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_s00_volleyballfield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_s05_volleyballfield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 99,
+      "n_runs": 10,
+      "accuracy": 0.3758,
+      "precision": 0.6981,
+      "recall": 0.45,
+      "f1": 0.5456,
+      "tp": 12,
+      "fp": 5,
+      "fn": 14,
+      "n_gt_instances": 26,
+      "n_pred_instances": 17
+    },
+    {
+      "algorithm": "WMSR",
+      "drones": [
+        "uav_001__uav_defocus_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_s00_volleyballfield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_s05_volleyballfield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 99,
+      "n_runs": 10,
+      "accuracy": 0.2429,
+      "precision": 0.7722,
+      "recall": 0.2615,
+      "f1": 0.3906,
+      "tp": 7,
+      "fp": 2,
+      "fn": 19,
+      "n_gt_instances": 26,
+      "n_pred_instances": 9
+    },
+    {
+      "algorithm": "CDCI",
+      "drones": [
+        "uav_001__uav_defocus_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_s00_volleyballfield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_s05_volleyballfield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 99,
+      "n_runs": 10,
+      "accuracy": 0.3971,
+      "precision": 0.6522,
+      "recall": 0.5038,
+      "f1": 0.5676,
+      "tp": 13,
+      "fp": 7,
+      "fn": 13,
+      "n_gt_instances": 26,
+      "n_pred_instances": 20
+    },
+    {
+      "algorithm": "DBBS",
+      "drones": [
+        "uav_001__uav_defocus_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_s00_volleyballfield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_s05_volleyballfield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 99,
+      "n_runs": 10,
+      "accuracy": 0.3024,
+      "precision": 0.6771,
+      "recall": 0.3538,
+      "f1": 0.4636,
+      "tp": 9,
+      "fp": 4,
+      "fn": 17,
+      "n_gt_instances": 26,
+      "n_pred_instances": 14
+    },
+    {
+      "algorithm": "MLES",
+      "drones": [
+        "uav_001__uav_defocus_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_s00_volleyballfield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_s05_volleyballfield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 99,
+      "n_runs": 10,
+      "accuracy": 0.3188,
+      "precision": 0.6291,
+      "recall": 0.3923,
+      "f1": 0.4831,
+      "tp": 10,
+      "fp": 6,
+      "fn": 16,
+      "n_gt_instances": 26,
+      "n_pred_instances": 16
+    },
+    {
+      "algorithm": "EEV",
+      "drones": [
+        "uav_001__uav_defocus_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_s00_volleyballfield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_s05_volleyballfield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 99,
+      "n_runs": 10,
+      "accuracy": 0.2759,
+      "precision": 0.7273,
+      "recall": 0.3077,
+      "f1": 0.4324,
+      "tp": 8,
+      "fp": 3,
+      "fn": 18,
+      "n_gt_instances": 26,
+      "n_pred_instances": 11
+    },
+    {
+      "algorithm": "DBC",
+      "drones": [
+        "uav_001__uav_defocus_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_s00_volleyballfield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_s05_volleyballfield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 99,
+      "n_runs": 10,
+      "accuracy": 0.2759,
+      "precision": 0.7273,
+      "recall": 0.3077,
+      "f1": 0.4324,
+      "tp": 8,
+      "fp": 3,
+      "fn": 18,
+      "n_gt_instances": 26,
+      "n_pred_instances": 11
+    },
+    {
+      "algorithm": "NO_CONSENSUS",
+      "drones": [
+        "uav_001__uav_defocus_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_s00_volleyballfield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_s05_volleyballfield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 99,
+      "n_runs": 10,
+      "accuracy": 0.2278,
+      "precision": 0.5625,
+      "recall": 0.2769,
+      "f1": 0.3711,
+      "tp": 7,
+      "fp": 6,
+      "fn": 19,
+      "n_gt_instances": 26,
+      "n_pred_instances": 13
+    },
+    {
+      "algorithm": "MAJORITY_VOTE",
+      "drones": [
+        "uav_001__uav_defocus_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_s00_volleyballfield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_s05_volleyballfield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_s05_volleyballfield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 99,
+      "n_runs": 10,
+      "accuracy": 0.2759,
+      "precision": 0.7273,
+      "recall": 0.3077,
+      "f1": 0.4324,
+      "tp": 8,
+      "fp": 3,
+      "fn": 18,
+      "n_gt_instances": 26,
+      "n_pred_instances": 11
+    }
+  ]
+}

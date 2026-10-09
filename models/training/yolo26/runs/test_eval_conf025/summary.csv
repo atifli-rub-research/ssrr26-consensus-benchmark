@@ -1,0 +1,2 @@
+model_name,model_path,data_yaml,split,imgsz,conf,precision,recall,f1,map50,map50_95
+yolo26_170_epochs_balanced_detector,yolo26_170_epochs_balanced_detector.pt,preprocessed_tiled/pfm1.yaml,test,1024,0.25,0.8036693912304068,0.823076923076923,0.8132573885519289,0.8053627664276615,0.3883700769737075

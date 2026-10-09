@@ -1,0 +1,296 @@
+{
+  "input_files": [
+    "runs/observations/rubble_field_drone_scenario/2026-06-25_13-03-24_rubble_field_drone_scenario/predictions/uav_defocus_s00_rubblefield_170_epochs_balanced_detector_predictions.json",
+    "runs/observations/rubble_field_drone_scenario/2026-06-25_13-03-24_rubble_field_drone_scenario/predictions/uav_gaussian_noise_s06_rubblefield_170_epochs_balanced_detector_predictions.json",
+    "runs/observations/rubble_field_drone_scenario/2026-06-25_13-03-24_rubble_field_drone_scenario/predictions/uav_motion_blur_s06_rubblefield_170_epochs_balanced_detector_predictions.json",
+    "runs/observations/rubble_field_drone_scenario/2026-06-25_13-03-24_rubble_field_drone_scenario/predictions/uav_pixelate_s00_rubblefield_170_epochs_balanced_detector_predictions.json",
+    "runs/observations/rubble_field_drone_scenario/2026-06-25_13-03-24_rubble_field_drone_scenario/predictions/uav_snow_s06_rubblefield_170_epochs_balanced_detector_predictions.json"
+  ],
+  "seed": 42,
+  "n_runs": 10,
+  "monte_carlo_averaging": true,
+  "metric_level": "instance",
+  "iou_threshold": 0.5,
+  "threshold": null,
+  "start_combinations": [
+    {
+      "uav_001__uav_defocus_s00_rubblefield_170_epochs_balanced_detector": 28,
+      "uav_002__uav_gaussian_noise_s06_rubblefield_170_epochs_balanced_detector": 6,
+      "uav_003__uav_motion_blur_s06_rubblefield_170_epochs_balanced_detector": 70,
+      "uav_004__uav_pixelate_s00_rubblefield_170_epochs_balanced_detector": 62,
+      "uav_005__uav_snow_s06_rubblefield_170_epochs_balanced_detector": 57
+    },
+    {
+      "uav_001__uav_defocus_s00_rubblefield_170_epochs_balanced_detector": 35,
+      "uav_002__uav_gaussian_noise_s06_rubblefield_170_epochs_balanced_detector": 26,
+      "uav_003__uav_motion_blur_s06_rubblefield_170_epochs_balanced_detector": 139,
+      "uav_004__uav_pixelate_s00_rubblefield_170_epochs_balanced_detector": 22,
+      "uav_005__uav_snow_s06_rubblefield_170_epochs_balanced_detector": 108
+    },
+    {
+      "uav_001__uav_defocus_s00_rubblefield_170_epochs_balanced_detector": 8,
+      "uav_002__uav_gaussian_noise_s06_rubblefield_170_epochs_balanced_detector": 7,
+      "uav_003__uav_motion_blur_s06_rubblefield_170_epochs_balanced_detector": 23,
+      "uav_004__uav_pixelate_s00_rubblefield_170_epochs_balanced_detector": 55,
+      "uav_005__uav_snow_s06_rubblefield_170_epochs_balanced_detector": 59
+    },
+    {
+      "uav_001__uav_defocus_s00_rubblefield_170_epochs_balanced_detector": 129,
+      "uav_002__uav_gaussian_noise_s06_rubblefield_170_epochs_balanced_detector": 6,
+      "uav_003__uav_motion_blur_s06_rubblefield_170_epochs_balanced_detector": 50,
+      "uav_004__uav_pixelate_s00_rubblefield_170_epochs_balanced_detector": 139,
+      "uav_005__uav_snow_s06_rubblefield_170_epochs_balanced_detector": 107
+    },
+    {
+      "uav_001__uav_defocus_s00_rubblefield_170_epochs_balanced_detector": 56,
+      "uav_002__uav_gaussian_noise_s06_rubblefield_170_epochs_balanced_detector": 114,
+      "uav_003__uav_motion_blur_s06_rubblefield_170_epochs_balanced_detector": 71,
+      "uav_004__uav_pixelate_s00_rubblefield_170_epochs_balanced_detector": 1,
+      "uav_005__uav_snow_s06_rubblefield_170_epochs_balanced_detector": 40
+    },
+    {
+      "uav_001__uav_defocus_s00_rubblefield_170_epochs_balanced_detector": 108,
+      "uav_002__uav_gaussian_noise_s06_rubblefield_170_epochs_balanced_detector": 87,
+      "uav_003__uav_motion_blur_s06_rubblefield_170_epochs_balanced_detector": 71,
+      "uav_004__uav_pixelate_s00_rubblefield_170_epochs_balanced_detector": 39,
+      "uav_005__uav_snow_s06_rubblefield_170_epochs_balanced_detector": 55
+    },
+    {
+      "uav_001__uav_defocus_s00_rubblefield_170_epochs_balanced_detector": 86,
+      "uav_002__uav_gaussian_noise_s06_rubblefield_170_epochs_balanced_detector": 26,
+      "uav_003__uav_motion_blur_s06_rubblefield_170_epochs_balanced_detector": 23,
+      "uav_004__uav_pixelate_s00_rubblefield_170_epochs_balanced_detector": 97,
+      "uav_005__uav_snow_s06_rubblefield_170_epochs_balanced_detector": 24
+    },
+    {
+      "uav_001__uav_defocus_s00_rubblefield_170_epochs_balanced_detector": 91,
+      "uav_002__uav_gaussian_noise_s06_rubblefield_170_epochs_balanced_detector": 88,
+      "uav_003__uav_motion_blur_s06_rubblefield_170_epochs_balanced_detector": 67,
+      "uav_004__uav_pixelate_s00_rubblefield_170_epochs_balanced_detector": 11,
+      "uav_005__uav_snow_s06_rubblefield_170_epochs_balanced_detector": 117
+    },
+    {
+      "uav_001__uav_defocus_s00_rubblefield_170_epochs_balanced_detector": 137,
+      "uav_002__uav_gaussian_noise_s06_rubblefield_170_epochs_balanced_detector": 31,
+      "uav_003__uav_motion_blur_s06_rubblefield_170_epochs_balanced_detector": 96,
+      "uav_004__uav_pixelate_s00_rubblefield_170_epochs_balanced_detector": 20,
+      "uav_005__uav_snow_s06_rubblefield_170_epochs_balanced_detector": 141
+    },
+    {
+      "uav_001__uav_defocus_s00_rubblefield_170_epochs_balanced_detector": 75,
+      "uav_002__uav_gaussian_noise_s06_rubblefield_170_epochs_balanced_detector": 92,
+      "uav_003__uav_motion_blur_s06_rubblefield_170_epochs_balanced_detector": 49,
+      "uav_004__uav_pixelate_s00_rubblefield_170_epochs_balanced_detector": 17,
+      "uav_005__uav_snow_s06_rubblefield_170_epochs_balanced_detector": 11
+    }
+  ],
+  "comparison": [
+    {
+      "algorithm": "LCP",
+      "drones": [
+        "uav_001__uav_defocus_s00_rubblefield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_s06_rubblefield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_s06_rubblefield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_s00_rubblefield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_s06_rubblefield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 143,
+      "n_runs": 10,
+      "accuracy": 0.97,
+      "precision": 0.97,
+      "recall": 1.0,
+      "f1": 0.9848,
+      "tp": 29,
+      "fp": 1,
+      "fn": 0,
+      "n_gt_instances": 29,
+      "n_pred_instances": 30
+    },
+    {
+      "algorithm": "WMSR",
+      "drones": [
+        "uav_001__uav_defocus_s00_rubblefield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_s06_rubblefield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_s06_rubblefield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_s00_rubblefield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_s06_rubblefield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 143,
+      "n_runs": 10,
+      "accuracy": 0.8667,
+      "precision": 0.963,
+      "recall": 0.8966,
+      "f1": 0.9286,
+      "tp": 26,
+      "fp": 1,
+      "fn": 3,
+      "n_gt_instances": 29,
+      "n_pred_instances": 27
+    },
+    {
+      "algorithm": "CDCI",
+      "drones": [
+        "uav_001__uav_defocus_s00_rubblefield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_s06_rubblefield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_s06_rubblefield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_s00_rubblefield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_s06_rubblefield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 143,
+      "n_runs": 10,
+      "accuracy": 0.9627,
+      "precision": 0.9869,
+      "recall": 0.9758,
+      "f1": 0.9809,
+      "tp": 28,
+      "fp": 0,
+      "fn": 1,
+      "n_gt_instances": 29,
+      "n_pred_instances": 29
+    },
+    {
+      "algorithm": "DBBS",
+      "drones": [
+        "uav_001__uav_defocus_s00_rubblefield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_s06_rubblefield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_s06_rubblefield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_s00_rubblefield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_s06_rubblefield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 143,
+      "n_runs": 10,
+      "accuracy": 0.936,
+      "precision": 0.9727,
+      "recall": 0.9621,
+      "f1": 0.9666,
+      "tp": 28,
+      "fp": 1,
+      "fn": 1,
+      "n_gt_instances": 29,
+      "n_pred_instances": 29
+    },
+    {
+      "algorithm": "MLES",
+      "drones": [
+        "uav_001__uav_defocus_s00_rubblefield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_s06_rubblefield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_s06_rubblefield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_s00_rubblefield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_s06_rubblefield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 143,
+      "n_runs": 10,
+      "accuracy": 0.9667,
+      "precision": 0.9667,
+      "recall": 1.0,
+      "f1": 0.9831,
+      "tp": 29,
+      "fp": 1,
+      "fn": 0,
+      "n_gt_instances": 29,
+      "n_pred_instances": 30
+    },
+    {
+      "algorithm": "EEV",
+      "drones": [
+        "uav_001__uav_defocus_s00_rubblefield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_s06_rubblefield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_s06_rubblefield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_s00_rubblefield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_s06_rubblefield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 143,
+      "n_runs": 10,
+      "accuracy": 0.8966,
+      "precision": 1.0,
+      "recall": 0.8966,
+      "f1": 0.9455,
+      "tp": 26,
+      "fp": 0,
+      "fn": 3,
+      "n_gt_instances": 29,
+      "n_pred_instances": 26
+    },
+    {
+      "algorithm": "DBC",
+      "drones": [
+        "uav_001__uav_defocus_s00_rubblefield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_s06_rubblefield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_s06_rubblefield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_s00_rubblefield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_s06_rubblefield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 143,
+      "n_runs": 10,
+      "accuracy": 0.9,
+      "precision": 0.9643,
+      "recall": 0.931,
+      "f1": 0.9474,
+      "tp": 27,
+      "fp": 1,
+      "fn": 2,
+      "n_gt_instances": 29,
+      "n_pred_instances": 28
+    },
+    {
+      "algorithm": "NO_CONSENSUS",
+      "drones": [
+        "uav_001__uav_defocus_s00_rubblefield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_s06_rubblefield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_s06_rubblefield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_s00_rubblefield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_s06_rubblefield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 143,
+      "n_runs": 10,
+      "accuracy": 0.56,
+      "precision": 0.9438,
+      "recall": 0.5793,
+      "f1": 0.7179,
+      "tp": 17,
+      "fp": 1,
+      "fn": 12,
+      "n_gt_instances": 29,
+      "n_pred_instances": 18
+    },
+    {
+      "algorithm": "MAJORITY_VOTE",
+      "drones": [
+        "uav_001__uav_defocus_s00_rubblefield_170_epochs_balanced_detector",
+        "uav_002__uav_gaussian_noise_s06_rubblefield_170_epochs_balanced_detector",
+        "uav_003__uav_motion_blur_s06_rubblefield_170_epochs_balanced_detector",
+        "uav_004__uav_pixelate_s00_rubblefield_170_epochs_balanced_detector",
+        "uav_005__uav_snow_s06_rubblefield_170_epochs_balanced_detector"
+      ],
+      "metric_level": "instance",
+      "iou_threshold": 0.5,
+      "n_tiles": 143,
+      "n_runs": 10,
+      "accuracy": 0.8667,
+      "precision": 0.963,
+      "recall": 0.8966,
+      "f1": 0.9286,
+      "tp": 26,
+      "fp": 1,
+      "fn": 3,
+      "n_gt_instances": 29,
+      "n_pred_instances": 27
+    }
+  ]
+}
